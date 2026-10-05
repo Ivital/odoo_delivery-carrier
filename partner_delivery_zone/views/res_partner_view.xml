@@ -10,6 +10,13 @@
             <field name="industry_id" position="after">
                 <field name="delivery_zone_id" />
             </field>
+            <field name="child_ids" position="attributes">
+                <attribute name="context" operation="update">
+                    {
+                        "default_delivery_zone_id": delivery_zone_id,
+                    }
+                </attribute>
+            </field>
             <xpath
                 expr="//field[@name='child_ids']/form//field[@name='mobile']"
                 position="after"

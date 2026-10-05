@@ -44,7 +44,6 @@ class TestPartnerDeliveryZone(BaseCommon):
             }
         )
         cls.order = cls.env["sale.order"].create(so._convert_to_write(so._cache))
-        cls.View = cls.env["ir.ui.view"]
 
     def test_partner_child_propagate(self):
         other_partner = self.env["res.partner"].create(
@@ -73,30 +72,18 @@ class TestPartnerDeliveryZone(BaseCommon):
         partner_field = partner_xml.xpath(partner_path)[0]
         return partner_field.attrib.get("context", "{}")
 
-    def test_default_line_discount_value(self):
+    def test_partner_child_delivery_zone_context(self):
+        view = self.env.ref("partner_delivery_zone.view_partner_form")
+
+        self.assertIn("default_delivery_zone_id", view.arch_db)
+
         res = self.partner.get_view(
-            view_id=self.env.ref("partner_delivery_zone.view_partner_form").id,
+            view_id=view.id,
             view_type="form",
         )
         ctx = self._get_ctx_from_view(res)
-        self.assertTrue("default_delivery_zone_id" in ctx)
-        view = self.View.create(
-            {
-                "name": "test",
-                "type": "form",
-                "model": "res.partner",
-                "arch": """
-                <form>
-                    <field name='child_ids'
-                        context="{'default_name': 'test'}">
-                    </field>
-                </form>
-            """,
-            }
-        )
-        res = self.partner.get_view(view_id=view.id, view_type="form")
-        ctx = self._get_ctx_from_view(res)
-        self.assertTrue("default_delivery_zone_id" in ctx)
+
+        self.assertIn("default_delivery_zone_id", ctx)
 
     def test_order_assign_commercial_partner_delivery_zone(self):
         # For contact type partners the delivery zone get from commercial
