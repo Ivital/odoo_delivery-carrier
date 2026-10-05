@@ -228,3 +228,28 @@ msgstr "виконано"
 #: model:ir.model.fields.selection,name:delivery_cttexpress.selection__cttexpress_pickup_wizard__state__new
 msgid "new"
 msgstr "новий"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "CTT Express Configuration"
+msgstr "Конфігурація CTT Express"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_manifest_wizard_form
+msgid "CTT Express Manifest Report"
+msgstr "Звіт маніфесту CTT Express"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_pickup_wizard_form
+msgid "CTT Express Pickup Report"
+msgstr "Звіт про забір CTT Express"
+
+#. module: delivery_cttexpress
+#: model:ir.actions.act_window,name:delivery_cttexpress.action_delivery_cttexpress_pickup_wizard
+msgid "CTT Express Pickup Request"
+msgstr "Запит на забір CTT Express"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_pickup_wizard_form
+msgid "Your pickup request code:"
+msgstr "Код вашого запиту на забір:"

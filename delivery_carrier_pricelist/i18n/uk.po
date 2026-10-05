@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_pricelist.field_delivery_carrier__invoice_policy
 msgid "Invoicing Policy"
 msgstr "Політика виставлення рахунків"
+
+#. module: delivery_carrier_pricelist
+#: model:ir.model.fields.selection,name:delivery_carrier_pricelist.selection__delivery_carrier__delivery_type__pricelist
+msgid "Based on Product Pricelist"
+msgstr "На основі прайс-листа товару"
+
+#. module: delivery_carrier_pricelist
+#: model:ir.model.fields.selection,name:delivery_carrier_pricelist.selection__delivery_carrier__invoice_policy__pricelist
+msgid "Delivery Product Price"
+msgstr "Ціна товару доставки"

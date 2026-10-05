@@ -1,0 +1,24 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 13:26+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_picking_delivery_package_type_domain
+#: model:ir.model.fields,field_description:stock_picking_delivery_package_type_domain.field_stock_picking_type__filter_package_type_on_put_in_pack
+msgid "Filter package type on put in pack"
+msgstr "Фільтрувати тип пакунка при пакуванні"
+
+#. module: stock_picking_delivery_package_type_domain
+#: model:ir.model.fields,field_description:stock_picking_delivery_package_type_domain.field_choose_delivery_package__package_type_domain
+msgid "Package Type Domain"
+msgstr "Домен типу пакунка"

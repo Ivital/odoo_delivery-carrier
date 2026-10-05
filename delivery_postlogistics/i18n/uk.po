@@ -199,3 +199,88 @@ msgstr "Перевірити"
 #: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
 msgid "ZPL Patch"
 msgstr "Патч ZPL"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_logo
+msgid "Company Logo on Post labels"
+msgstr "Логотип компанії на поштових етикетках"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.view_picking_withcarrier_out_form
+msgid "Create Shipping Label 🚚"
+msgstr "Створити етикетку доставки 🚚"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.view_picking_withcarrier_out_form
+msgid "Delivery instructions"
+msgstr "Інструкції з доставки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_office
+msgid "Domicile Post office"
+msgstr "Поштове відділення місця проживання"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_stock_picking__delivery_fixed_date
+msgid "Fixed delivery date"
+msgstr "Фіксована дата доставки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__delivery_carrier_template_option__type__resolution
+msgid "Output Resolution"
+msgstr "Роздільна здатність виводу"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_stock_quant_package__package_carrier_type
+msgid "Packaging's Carrier"
+msgstr "Перевізник пакування"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_stock_quant_package__postlogistics_manual_cod_amount
+msgid "PostLogistics Cash On Delivery Amount"
+msgstr "Сума післяплати PostLogistics"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_default_package_type_id
+msgid "Postlogistics Default Package Type"
+msgstr "Тип пакунка Postlogistics за замовчуванням"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_proclima_logo
+msgid "Print ProClima logo"
+msgstr "Друкувати логотип ProClima"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.stock_package_type_form_delivery
+msgid "See section 8.10 of"
+msgstr "Див. розділ 8.10"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_tracking_format
+msgid "Tracking number format"
+msgstr "Формат номера відстеження"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__delivery_carrier__postlogistics_tracking_format__postlogistics
+msgid "Use default postlogistics tracking numbers"
+msgstr "Використовувати номери відстеження PostLogistics за замовчуванням"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__delivery_carrier__postlogistics_tracking_format__picking_num
+msgid "Use picking number with pack counter"
+msgstr "Використовувати номер переміщення з лічильником пакувань"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__zpl_patch_string
+msgid "ZPL Patch String"
+msgstr "Рядок патчу ZPL"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.stock_package_type_form_delivery
+msgid "for available codes."
+msgstr "для доступних кодів."
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.stock_package_type_form_delivery
+msgid "the documentation"
+msgstr "документація"

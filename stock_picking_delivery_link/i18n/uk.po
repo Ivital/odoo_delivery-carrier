@@ -22,3 +22,8 @@ msgstr "Посилання доставки"
 #: model:ir.model.fields,field_description:stock_picking_delivery_link.field_stock_picking__ship_carrier_id
 msgid "Related carrier"
 msgstr "Пов’язаний перевізник"
+
+#. module: stock_picking_delivery_link
+#: model:ir.model.fields,field_description:stock_picking_delivery_link.field_stock_picking__ship_picking_id
+msgid "Related delivery"
+msgstr "Пов’язана доставка"

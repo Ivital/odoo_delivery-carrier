@@ -322,3 +322,25 @@ msgstr "Доставка"
 #: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
 msgid "Term Code"
 msgstr "Код терміна"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_term__995
+msgid ""
+"(995) Service goods, insured; only by arrangement with the consolidator"
+msgstr ""
+"(995) Сервісні товари, застраховані; лише за домовленістю з консолідатором"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__zk
+msgid "(ZK) Customs envelope"
+msgstr "(ZK) Митний конверт"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Dachser Configuration"
+msgstr "Конфігурація Dachser"
+
+#. module: delivery_dachser
+#: model:ir.model.fields,field_description:delivery_dachser.field_delivery_carrier__dachser_default_packaging_id
+msgid "Default Packaging Type"
+msgstr "Тип пакування за замовчуванням"

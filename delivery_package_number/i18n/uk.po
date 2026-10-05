@@ -98,3 +98,48 @@ msgstr "Кількість пакунків"
 #: model_terms:ir.ui.view,arch_db:delivery_package_number.view_number_package_validate
 msgid "Set number of packages"
 msgstr "Встановити кількість пакунків"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_picking__ask_number_of_packages
+msgid "Ask Number Of Packages"
+msgstr "Запитувати кількість пакунків"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_picking_type__avoid_set_number_of_packages
+msgid "Avoid Set Number Of Packages"
+msgstr "Не встановлювати кількість пакунків"
+
+#. module: delivery_package_number
+#: model:ir.actions.report,name:delivery_package_number.action_delivery_package_number_report
+msgid "Delivery package number"
+msgstr "Номер пакунка доставки"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__number_of_packages
+msgid "Number Of Packages"
+msgstr "Кількість пакунків"
+
+#. module: delivery_package_number
+#: model_terms:ir.ui.view,arch_db:delivery_package_number.delivery_package_number_document
+msgid "Number of packages:"
+msgstr "Кількість пакунків:"
+
+#. module: delivery_package_number
+#: model:ir.model.fields.selection,name:delivery_package_number.selection__stock_picking_type__force_set_number_of_packages__partner
+msgid "Partner condition"
+msgstr "Умова партнера"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__print_package_label
+msgid "Print Package Label"
+msgstr "Друкувати етикетку пакунка"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_picking_type__report_number_of_packages
+msgid "Report Number Of Packages"
+msgstr "Кількість пакунків у звіті"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__stock_number_package_validation_line_ids
+msgid "Stock Number Package Validation Line"
+msgstr "Рядок перевірки кількості пакувань запасу"

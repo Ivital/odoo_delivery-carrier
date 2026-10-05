@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_delivery_package_type_carrier.field_stock_package_type__allowed_package_carrier_ids
 msgid "Delivery Methods"
 msgstr "Способи доставки"
+
+#. module: stock_picking_delivery_package_type_carrier
+#: model:ir.model.fields,field_description:stock_picking_delivery_package_type_carrier.field_stock_quant_package__result_move_line_ids
+msgid "Result Move Line"
+msgstr "Результуючий рядок руху"

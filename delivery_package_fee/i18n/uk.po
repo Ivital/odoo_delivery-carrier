@@ -63,3 +63,14 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:delivery_package_fee.view_delivery_carrier_form
 msgid "Package Fees"
 msgstr "Плата за пакунок"
+
+#. module: delivery_package_fee
+#: model_terms:ir.ui.view,arch_db:delivery_package_fee.view_delivery_carrier_form
+msgid ""
+"For each line below, each time a transfer is done, a line is added\n"
+"                        in the sales order with the product. The unit is the number of packages\n"
+"                        in the transfer and the price is the product's pricelist price."
+msgstr ""
+"Для кожного рядка нижче щоразу, коли виконується переміщення, до замовлення\n"
+"                        на продаж додається рядок із товаром. Одиницею є кількість пакувань\n"
+"                        у переміщенні, а ціною — ціна товару за прайс-листом."

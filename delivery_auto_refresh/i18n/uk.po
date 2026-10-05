@@ -30,3 +30,27 @@ msgstr "Автоматично оновлювати рядок вартості 
 #: model:ir.model.fields,field_description:delivery_auto_refresh.field_res_config_settings__sale_auto_void_delivery_line
 msgid "Void delivery lines automatically"
 msgstr "Автоматично анулювати рядки доставки"
+
+#. module: delivery_auto_refresh
+#: model_terms:ir.ui.view,arch_db:delivery_auto_refresh.res_config_settings_view_form
+msgid ""
+"After delivering a sales order, update the shipping cost line based on what "
+"has been delivered."
+msgstr ""
+"Після доставки замовлення на продаж оновити рядок вартості доставки "
+"відповідно до фактично доставленого."
+
+#. module: delivery_auto_refresh
+#: model_terms:ir.ui.view,arch_db:delivery_auto_refresh.res_config_settings_view_form
+msgid "On the sales quotation, refresh the shipping cost line when saving."
+msgstr ""
+"У комерційній пропозиції оновлювати рядок вартості доставки під час "
+"збереження."
+
+#. module: delivery_auto_refresh
+#: model_terms:ir.ui.view,arch_db:delivery_auto_refresh.res_config_settings_view_form
+msgid ""
+"Void the shipping cost line when the delivery is returned before invoicing."
+msgstr ""
+"Обнулити рядок вартості доставки, якщо доставку повернено до виставлення "
+"рахунку."

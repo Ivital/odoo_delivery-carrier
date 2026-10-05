@@ -107,3 +107,53 @@ msgstr "Етикетка UPS"
 #: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_delivery_carrier_form
 msgid "Update Token"
 msgstr "Оновити токен"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_cod_funds_code__9
+msgid "Check/Cashier Check/Money Order"
+msgstr "Чек/касовий чек/грошовий переказ"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_default_packaging_id
+msgid "Default Carrier Packaging Type"
+msgstr "Тип пакування перевізника за замовчуванням"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_package_dimension_code
+msgid "Package Dimension code"
+msgstr "Код розміру пакунка"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_package_weight_code
+msgid "Package Weight code"
+msgstr "Код ваги пакунка"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_tracking_state_update_sync
+msgid "Tracking state update sync"
+msgstr "Синхронізація оновлення стану відстеження"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_cash_on_delivery
+msgid "UPS Cash On Delivery"
+msgstr "UPS післяплата"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_cod_funds_code
+msgid "UPS Cod Funds Code"
+msgstr "Код коштів COD UPS"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_client_secret
+msgid "Ups Client Secret"
+msgstr "Секрет клієнта UPS"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_token_expiration_date
+msgid "Ups Token Expiration Date"
+msgstr "Дата завершення строку токена UPS"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_use_packages_from_picking
+msgid "Use packages from picking"
+msgstr "Використовувати пакунки з переміщення"

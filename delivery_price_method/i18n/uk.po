@@ -32,3 +32,8 @@ msgstr "Метод ціни"
 #: model_terms:ir.ui.view,arch_db:delivery_price_method.view_delivery_carrier_form
 msgid "Pricing"
 msgstr "Ціноутворення"
+
+#. module: delivery_price_method
+#: model:ir.model.fields.selection,name:delivery_price_method.selection__delivery_carrier__price_method__carrier
+msgid "Carrier obtained price"
+msgstr "Ціна, отримана від перевізника"

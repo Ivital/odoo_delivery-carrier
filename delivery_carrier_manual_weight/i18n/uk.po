@@ -23,3 +23,8 @@ msgstr "Ручні ваги"
 #: model:ir.model.fields,field_description:delivery_carrier_manual_weight.field_stock_picking__weight_manual
 msgid "Weight (Manual)"
 msgstr "Вага (вручну)"
+
+#. module: delivery_carrier_manual_weight
+#: model:ir.model.fields,field_description:delivery_carrier_manual_weight.field_stock_picking__shipping_weight_manual
+msgid "Weight for Shipping (Manual)"
+msgstr "Вага для доставки (вручну)"

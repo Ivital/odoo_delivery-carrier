@@ -64,3 +64,71 @@ msgstr "Стан відстеження"
 #: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
 msgid "Values set here are company-specific."
 msgstr "Значення, задані тут, є специфічними для компанії."
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__canceled_shipment
+msgid "Canceled shipment"
+msgstr "Скасоване відправлення"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__customer_delivered
+msgid "Customer delivered"
+msgstr "Доставлено клієнту"
+
+#. module: delivery_state
+#: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
+msgid "Email Confirmation (customer delivered)"
+msgstr "Підтвердження email (доставлено клієнту)"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__no_update
+msgid "No more updates from carrier"
+msgstr "Більше немає оновлень від перевізника"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__pod_error
+msgid "Proof of Delivery Error"
+msgstr "Помилка підтвердження доставки"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__pod_file
+msgid "Proof of Delivery File"
+msgstr "Файл підтвердження доставки"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__pod_filename
+msgid "Proof of Delivery Filename"
+msgstr "Ім’я файлу підтвердження доставки"
+
+#. module: delivery_state
+#: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
+msgid ""
+"Send an automatic confirmation email when Delivery Orders are delivered"
+msgstr ""
+"Надсилати автоматичний лист-підтвердження після доставки замовлень на "
+"доставку"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__shipping_recorded_in_carrier
+msgid "Shipping recorded in carrier"
+msgstr "Доставку зареєстровано у перевізника"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__tracking_state_history
+msgid "Tracking State History"
+msgstr "Історія стану відстеження"
+
+#. module: delivery_state
+#: model:ir.actions.server,name:delivery_state.ir_cron_delivery_state_ir_actions_server
+msgid "Update deliveries states"
+msgstr "Оновити стани доставок"
+
+#. module: delivery_state
+#: model_terms:ir.ui.view,arch_db:delivery_state.view_picking_withcarrier_out_form
+msgid "Update tracking state"
+msgstr "Оновити стан відстеження"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__warehouse_delivered
+msgid "Warehouse delivered"
+msgstr "Склад доставлено"

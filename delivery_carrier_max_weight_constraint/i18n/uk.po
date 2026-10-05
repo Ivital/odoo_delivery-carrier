@@ -19,3 +19,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery_carrier_max_weight_constraint.res_config_settings_view_form
 msgid "Overweight packages forbidden"
 msgstr "Пакунки з перевищенням ваги заборонені"
+
+#. module: delivery_carrier_max_weight_constraint
+#: model_terms:ir.ui.view,arch_db:delivery_carrier_max_weight_constraint.res_config_settings_view_form
+msgid "Constrain the maximum weight of packages to be respected"
+msgstr "Обмежити максимальну вагу пакунків"
+
+#. module: delivery_carrier_max_weight_constraint
+#: model:ir.model.fields,field_description:delivery_carrier_max_weight_constraint.field_stock_package_type__is_strict_weight
+msgid "Overweight forbidden"
+msgstr "Перевищення ваги заборонено"

@@ -22,3 +22,18 @@ msgstr "До сплати"
 #: model:ir.model.fields.selection,name:delivery_correos_express.selection__delivery_carrier__correos_express_transport__p
 msgid "Paid"
 msgstr "Сплачено"
+
+#. module: delivery_correos_express
+#: model_terms:ir.ui.view,arch_db:delivery_correos_express.view_delivery_carrier_form
+msgid "Correos Express Configuration"
+msgstr "Конфігурація Correos Express"
+
+#. module: delivery_correos_express
+#: model:ir.model.fields,field_description:delivery_correos_express.field_delivery_carrier__correos_express_label_type
+msgid "Correos Express Label type"
+msgstr "Тип етикетки Correos Express"
+
+#. module: delivery_correos_express
+#: model_terms:ir.ui.view,arch_db:delivery_correos_express.view_picking_withcarrier_out_form
+msgid "Print Correos Express Label"
+msgstr "Друкувати етикетку Correos Express"

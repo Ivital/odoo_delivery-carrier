@@ -27,3 +27,8 @@ msgstr "Ціна доставки"
 #: model:ir.model.fields,field_description:delivery_purchase.field_purchase_order_line__is_delivery
 msgid "Is a Delivery"
 msgstr "Є доставкою"
+
+#. module: delivery_purchase
+#: model:ir.model.fields,field_description:delivery_purchase.field_purchase_order_line__delivery_picking_orig_id
+msgid "Origin picking (delivery)"
+msgstr "Початкове переміщення (доставка)"

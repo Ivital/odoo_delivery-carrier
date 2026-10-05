@@ -192,3 +192,33 @@ msgstr "Від порту до дверей"
 #: model_terms:ir.ui.view,arch_db:delivery_schenker.view_picking_withcarrier_out_form
 msgid "Schenker Label"
 msgstr "Етикетка Schenker"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__a2a
+msgid "Aiport-to-airport"
+msgstr "Аеропорт-аеропорт"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_barcode_mail
+msgid "Barcode Copy Email"
+msgstr "Електронна пошта копії штрихкоду"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_barcode_a4_separated
+msgid "Barcode Separated"
+msgstr "Штрихкоди розділено"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_barcode_a4_start_pos
+msgid "Barcode Start Position"
+msgstr "Початкова позиція штрихкоду"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_default_package_type_id
+msgid "Default Package Type"
+msgstr "Тип пакунка за замовчуванням"
+
+#. module: delivery_schenker
+#: model_terms:ir.ui.view,arch_db:delivery_schenker.view_delivery_carrier_form
+msgid "Schenker Configuration"
+msgstr "Конфігурація Schenker"

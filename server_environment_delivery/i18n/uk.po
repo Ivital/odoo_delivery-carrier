@@ -22,3 +22,8 @@ msgstr "Технічна назва"
 #: model:ir.model.fields,field_description:server_environment_delivery.field_delivery_carrier__server_env_defaults
 msgid "Server Env Defaults"
 msgstr "Типові значення серверного середовища"
+
+#. module: server_environment_delivery
+#: model:ir.model.fields,help:server_environment_delivery.field_delivery_carrier__tech_name
+msgid "Unique name for technical purposes. Eg: server env keys."
+msgstr "Унікальна назва для технічних цілей. Наприклад: ключі server env."

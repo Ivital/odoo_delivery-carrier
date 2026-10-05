@@ -17,3 +17,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery_pre_shipping.view_stock_picking_form
 msgid "Cancel"
 msgstr "Скасувати"
+
+#. module: delivery_pre_shipping
+#: model_terms:ir.ui.view,arch_db:delivery_pre_shipping.view_stock_picking_form
+msgid ""
+"Cancelling a delivery may not be undoable. Are you sure you want to "
+"continue?"
+msgstr ""
+"Скасування доставки може бути незворотним. Ви впевнені, що хочете "
+"продовжити?"
+
+#. module: delivery_pre_shipping
+#: model_terms:ir.ui.view,arch_db:delivery_pre_shipping.view_stock_picking_form
+msgid "Send to shipper manually"
+msgstr "Надіслати перевізнику вручну"

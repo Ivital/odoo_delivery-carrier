@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_report_to_printer.field_delivery_carrier__label_report_id
 msgid "Label Report"
 msgstr "Звіт етикетки"
+
+#. module: delivery_carrier_report_to_printer
+#: model:ir.actions.report,name:delivery_carrier_report_to_printer.report_carrier_label
+msgid "Generic carrier label"
+msgstr "Загальна етикетка перевізника"

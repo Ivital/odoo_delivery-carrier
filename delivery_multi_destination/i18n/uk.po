@@ -37,3 +37,8 @@ msgstr "Один пункт призначення"
 #: model:ir.model.fields,field_description:delivery_multi_destination.field_delivery_carrier__parent_id
 msgid "Parent carrier"
 msgstr "Батьківський перевізник"
+
+#. module: delivery_multi_destination
+#: model:ir.model.fields.selection,name:delivery_multi_destination.selection__delivery_carrier__destination_type__multi
+msgid "Multiple destinations"
+msgstr "Кілька призначень"

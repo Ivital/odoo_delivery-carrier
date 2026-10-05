@@ -71,3 +71,11 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:partner_delivery_info.field_res_partner_delivery_info__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: partner_delivery_info
+#: model_terms:ir.actions.act_window,help:partner_delivery_info.action_res_partner_delivery_info
+msgid ""
+"Create a delivery indication to the carriers, to be used by the customers."
+msgstr ""
+"Створити вказівку щодо доставки для перевізників, яку використовуватимуть "
+"клієнти."

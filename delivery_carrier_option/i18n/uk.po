@@ -113,3 +113,18 @@ msgstr "Параметр партнера"
 #: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__readonly_flag
 msgid "Readonly Flag"
 msgstr "Ознака лише для читання"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields.selection,name:delivery_carrier_option.selection__delivery_carrier_template_option__type__additional
+msgid "Additional Service"
+msgstr "Додаткова послуга"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__by_default
+msgid "Applied by Default"
+msgstr "Застосовується за замовчуванням"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields.selection,name:delivery_carrier_option.selection__delivery_carrier_template_option__type__delivery
+msgid "Delivery Instructions"
+msgstr "Інструкції з доставки"

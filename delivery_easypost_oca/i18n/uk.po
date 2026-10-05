@@ -53,3 +53,43 @@ msgstr "Відправлення Easypost OCA"
 #: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__easypost_oca_label_file_type
 msgid "Label Format"
 msgstr "Формат етикетки"
+
+#. module: delivery_easypost_oca
+#: model_terms:ir.ui.view,arch_db:delivery_easypost_oca.view_stock_package_type_easypost_oca
+msgid "<span invisible=\"package_carrier_type != 'easypost_oca'\">Inches</span>"
+msgstr "<span invisible=\"package_carrier_type != 'easypost_oca'\">Дюйми</span>"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__easypost_oca_delivery_multiple_packages
+msgid "Delivery Multiple Packages"
+msgstr "Кілька пакунків доставки"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__is_saturday_delivery
+msgid "Delivery On Saturday?"
+msgstr "Доставка в суботу?"
+
+#. module: delivery_easypost_oca
+#: model_terms:ir.ui.view,arch_db:delivery_easypost_oca.easy_view_delivery_carrier_form_inherit
+msgid "Easypost Configuration"
+msgstr "Конфігурація Easypost"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_batch_id
+msgid "Easypost Oca Batch"
+msgstr "Пакет Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_carrier_id
+msgid "Easypost Oca Carrier"
+msgstr "Перевізник Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_tracking_url
+msgid "Easypost Oca Tracking Url"
+msgstr "URL відстеження Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__easypost_oca_test_api_key
+msgid "Easypost Test API Key"
+msgstr "Тестовий API-ключ Easypost"
