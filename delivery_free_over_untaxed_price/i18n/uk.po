@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_free_over_untaxed_price.field_delivery_carrier__use_amount_untaxed
 msgid "Use amount untaxed"
 msgstr "Використовувати суму без податку"
+
+#. module: delivery_free_over_untaxed_price
+#. odoo-python
+#: code:addons/delivery_free_over_untaxed_price/models/delivery_carrier.py:0
+msgid "The shipping is free since the order untaxed amount exceeds %.2f."
+msgstr ""
+"Доставка безкоштовна, оскільки сума замовлення без податків перевищує %.2f."

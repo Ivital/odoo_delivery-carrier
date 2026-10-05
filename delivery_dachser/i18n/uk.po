@@ -349,3 +349,23 @@ msgstr "Тип пакування за замовчуванням"
 #: model:ir.model.fields,help:delivery_dachser.field_delivery_carrier__dachser_default_packaging_id
 msgid "Default weight, height, width and length for packages"
 msgstr "Типові вага, висота, ширина та довжина пакунків"
+
+#. module: delivery_dachser
+#. odoo-python
+#: code:addons/delivery_dachser/models/delivery_carrier.py:0
+msgid ""
+"It is not possible to cancel a shipment because it has already been sent."
+msgstr "Неможливо скасувати відправлення, оскільки його вже надіслано."
+
+#. module: delivery_dachser
+#. odoo-python
+#: code:addons/delivery_dachser/models/dachser_request.py:0
+msgid "Timeout: the server did not reply within 60s"
+msgstr "Тайм-аут: сервер не відповів протягом 60 с"
+
+#. module: delivery_dachser
+#. odoo-python
+#: code:addons/delivery_dachser/models/dachser_request.py:0
+msgid "Unsupported request type, please only use 'GET', 'POST' or 'DELETE'"
+msgstr ""
+"Непідтримуваний тип запиту, використовуйте лише 'GET', 'POST' або 'DELETE'"

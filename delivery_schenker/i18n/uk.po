@@ -336,3 +336,53 @@ msgstr "Ключ доступу Schenker"
 #: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_measure_unit
 msgid "The proper request will be formed accordingly from the picking"
 msgstr "Відповідний запит буде сформовано згідно з комплектуванням"
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/schenker_request.py:0
+msgid ""
+"Error in the request to the Schenker API. This is the thrown message:\n"
+"\n"
+"[%(error_text)s]\n"
+"%(error_code)s - %(error_message)s"
+msgstr ""
+"Помилка запиту до API Schenker. Отримане повідомлення:\n"
+"\n"
+"[%(error_text)s]\n"
+"%(error_code)s - %(error_message)s"
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/delivery_carrier.py:0
+msgid "Only land shipping is currently supported"
+msgstr "Наразі підтримується лише наземна доставка"
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/delivery_carrier.py:0
+msgid "Only volume is currently supported"
+msgstr "Наразі підтримується лише об’єм"
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/delivery_carrier.py:0
+msgid ""
+"Schenker API doesn't provide methods to compute delivery rates, so you "
+"should relay on another price method instead or override this one in your "
+"custom code."
+msgstr ""
+"API Schenker не надає методів для розрахунку тарифів доставки, тому слід "
+"використовувати інший метод ціноутворення або перевизначити цей у власному "
+"коді."
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/delivery_carrier.py:0
+msgid "Schenker Shipping barcode document"
+msgstr "Документ штрихкоду доставки Schenker"
+
+#. module: delivery_schenker
+#. odoo-python
+#: code:addons/delivery_schenker/models/stock_picking.py:0
+msgid "Schenker label for %s"
+msgstr "Мітка Schenker для %s"

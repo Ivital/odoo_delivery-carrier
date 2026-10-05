@@ -146,3 +146,13 @@ msgid ""
 msgstr ""
 "Ваше замовлення {{ object.carrier_tracking_ref or object.name }} від {{ "
 "object.company_id.name }}"
+
+#. module: delivery_state
+#. odoo-python
+#: code:addons/delivery_state/models/stock_picking.py:0
+msgid ""
+"<b>Errors while fetching POD for carrier %s:</b><br/>Please review the "
+"details below and take the necessary actions to resolve these issues.:<br/>"
+msgstr ""
+"<b>Помилки під час отримання POD для перевізника %s:</b><br/>Перегляньте "
+"деталі нижче та виконайте необхідні дії для усунення проблем:<br/>"

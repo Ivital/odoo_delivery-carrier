@@ -26,3 +26,12 @@ msgid ""
 msgstr ""
 "Якщо позначено, вага типу пакування вважатиметься загальною вагою пакування.\n"
 "         Вага товару не додаватиметься"
+
+#. module: delivery_package_type_shipping_weight
+#. odoo-python
+#: code:addons/delivery_package_type_shipping_weight/models/stock_package_type.py:0
+msgid ""
+"Weight must be a positive or null value if Is shipping\n"
+"                        weight is enabled."
+msgstr ""
+"Вага має бути додатною або нульовою, якщо ввімкнено «Є вагою доставки»."

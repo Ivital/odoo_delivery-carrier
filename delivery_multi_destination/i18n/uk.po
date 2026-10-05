@@ -42,3 +42,9 @@ msgstr "Батьківський перевізник"
 #: model:ir.model.fields.selection,name:delivery_multi_destination.selection__delivery_carrier__destination_type__multi
 msgid "Multiple destinations"
 msgstr "Кілька призначень"
+
+#. module: delivery_multi_destination
+#. odoo-python
+#: code:addons/delivery_multi_destination/models/delivery_carrier.py:0
+msgid "There is no matching delivery rule."
+msgstr "Відповідного правила доставки не знайдено."

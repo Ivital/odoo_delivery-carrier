@@ -130,3 +130,21 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.actions.act_window,help:partner_delivery_schedule.partner_delivery_schedule_action
 msgid "Click to set a new delivery schedule for partners."
 msgstr "Натисніть, щоб встановити новий графік доставки для контрагентів."
+
+#. module: partner_delivery_schedule
+#. odoo-python
+#: code:addons/partner_delivery_schedule/models/partner_delivery_schedule.py:0
+msgid "All days"
+msgstr "Усі дні"
+
+#. module: partner_delivery_schedule
+#. odoo-python
+#: code:addons/partner_delivery_schedule/models/partner_delivery_schedule.py:0
+msgid "Error ! You can not set hour_from greater or equal than hour_to ."
+msgstr "Помилка! hour_from не може бути більшим або дорівнювати hour_to."
+
+#. module: partner_delivery_schedule
+#. odoo-python
+#: code:addons/partner_delivery_schedule/models/partner_delivery_schedule.py:0
+msgid "Error ! You must set one day to delivery."
+msgstr "Помилка! Потрібно вказати один день до доставки."

@@ -36,3 +36,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_delivery_package_type_carrier.field_stock_quant_package__result_move_line_ids
 msgid "Technical field. Result move lines for this package."
 msgstr "Технічне поле. Результуючі рядки переміщення для цього пакунка."
+
+#. module: stock_picking_delivery_package_type_carrier
+#. odoo-python
+#: code:addons/stock_picking_delivery_package_type_carrier/models/stock_quant_package.py:0
+msgid ""
+"Package type '%(package_type)s' is not valid for carriers '%(carrier)s'."
+msgstr ""
+"Тип пакування «%(package_type)s» недійсний для перевізників «%(carrier)s»."

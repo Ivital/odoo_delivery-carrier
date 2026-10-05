@@ -29,3 +29,13 @@ msgstr "Водій"
 #: model:ir.model.fields,field_description:delivery_driver.field_res_users__carrier_ids
 msgid "Delivery Carriers"
 msgstr "Перевізники доставки"
+
+#. module: delivery_driver
+#. odoo-python
+#: code:addons/delivery_driver/models/res_partner.py:0
+msgid ""
+"You can't remove the driver flag from a partner that is set as driver in a "
+"delivery method."
+msgstr ""
+"Не можна зняти прапорець водія з партнера, який встановлений водієм у "
+"способі доставки."

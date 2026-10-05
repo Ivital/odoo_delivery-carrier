@@ -385,3 +385,146 @@ msgstr ""
 "вуглецево-нейтральну доставку та укладено відповідний договір. Для "
 "внутрішніх листів зі штрихкодом (BMB) логотип ProClima друкується "
 "автоматично (без додаткової плати)."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid ""
+"Authorization Required\n"
+"\n"
+"Please verify postlogistics client id and secret in:\n"
+"Delivery Carrier (PostLogistics)."
+msgstr ""
+"Потрібна авторизація\n"
+"\n"
+"Перевірте client id і secret PostLogistics у:\n"
+"Перевізник доставки (PostLogistics)."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid ""
+"Authorization Required\n"
+"\n"
+"Please verify postlogistics client id and secret in:\n"
+"Sale Orders > Configuration -> Sale Orders > Shipping Methods > PostLogistics"
+msgstr ""
+"Потрібна авторизація\n"
+"\n"
+"Перевірте client id і secret PostLogistics у:\n"
+"Замовлення продажу > Налаштування -> Замовлення продажу > Способи доставки > PostLogistics"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "Error code: %(code)s, Message: %(message)s"
+msgstr "Код помилки: %(code)s, повідомлення: %(message)s"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "Layout not set"
+msgstr "Макет не задано"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "Output format not set"
+msgstr "Формат виводу не налаштовано"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/stock_picking.py:0
+msgid "Please, set a carrier."
+msgstr "Встановіть перевізника."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/stock_picking.py:0
+msgid "PostLogistics error:"
+msgstr "Помилка PostLogistics:"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid ""
+"Postlogistics service is not accessible at the moment. Error code: %s. "
+"Please try again later."
+msgstr ""
+"Сервіс Postlogistics наразі недоступний. Код помилки: %s. Спробуйте пізніше."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "Resolution not set"
+msgstr "Рішення не налаштовано"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/stock_picking.py:0
+#: code:addons/delivery_postlogistics/models/stock_quant_package.py:0
+msgid ""
+"The cash on delivery amount must be manually specified on the packages when "
+"a package contains products from different sales orders."
+msgstr ""
+"Суму післяплати потрібно вручну вказати на пакунках, якщо пакунок містить "
+"товари з різних замовлень на продаж."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/stock_picking.py:0
+#: code:addons/delivery_postlogistics/models/stock_quant_package.py:0
+msgid ""
+"The cash on delivery amount must be manually specified on the packages when "
+"a sales order is delivered in several delivery orders."
+msgstr ""
+"Суму післяплати потрібно вручну вказати на пакунках, якщо замовлення на "
+"продаж доставляється кількома замовленнями на доставку."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/delivery_carrier.py:0
+msgid "The credential is valid."
+msgstr "Облікові дані дійсні."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "The package %s must have a package type."
+msgstr "Пакування %s повинно мати тип пакування."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/models/delivery_carrier.py:0
+msgid "This feature is under development"
+msgstr "Ця функція розробляється"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid ""
+"You need to configure %s. You can set a default value in Inventory / "
+"Configuration / Delivery / Shipping Methods. You can also set it on delivery"
+" method or on the picking."
+msgstr ""
+"Потрібно налаштувати %s. Значення за замовчуванням можна встановити в Запаси"
+" / Налаштування / Доставка / Способи доставки. Також його можна встановити у"
+" способі доставки або в складському переміщенні."
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "label layout"
+msgstr "макет етикетки"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "output format"
+msgstr "формат виводу"
+
+#. module: delivery_postlogistics
+#. odoo-python
+#: code:addons/delivery_postlogistics/postlogistics/web_service.py:0
+msgid "resolution"
+msgstr "вирішення"

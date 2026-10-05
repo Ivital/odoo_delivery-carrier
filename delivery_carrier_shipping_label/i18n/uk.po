@@ -191,3 +191,13 @@ msgid ""
 msgstr ""
 "Ви можете завантажити файл з комп'ютера або скопіювати та вставити посилання"
 " на ваш файл."
+
+#. module: delivery_carrier_shipping_label
+#. odoo-python
+#: code:addons/delivery_carrier_shipping_label/models/stock_picking.py:0
+msgid ""
+"Some labels already exist for the picking %s.\n"
+"Please delete the existing labels in the attachments of this picking and try again"
+msgstr ""
+"Для переміщення %s уже існують мітки.\n"
+"Видаліть наявні мітки у вкладеннях цього переміщення й повторіть спробу"

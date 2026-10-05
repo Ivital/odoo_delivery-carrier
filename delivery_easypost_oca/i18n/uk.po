@@ -103,3 +103,27 @@ msgstr "Введіть продуктивний API-ключ з обліково
 #: model:ir.model.fields,help:delivery_easypost_oca.field_delivery_carrier__easypost_oca_test_api_key
 msgid "Enter your API test key from Easypost account."
 msgstr "Введіть тестовий API-ключ з облікового запису Easypost."
+
+#. module: delivery_easypost_oca
+#. odoo-python
+#: code:addons/delivery_easypost_oca/models/easypost_request.py:0
+msgid "Failed to retrieve label content."
+msgstr "Не вдалося отримати вміст мітки."
+
+#. module: delivery_easypost_oca
+#. odoo-python
+#: code:addons/delivery_easypost_oca/models/easypost_request.py:0
+msgid "Failed to retrieve label content: %s"
+msgstr "Не вдалося отримати вміст мітки: %s"
+
+#. module: delivery_easypost_oca
+#. odoo-python
+#: code:addons/delivery_easypost_oca/models/delivery_carrier.py:0
+msgid "No rate found for this shipping."
+msgstr "Тариф для цієї доставки не знайдено."
+
+#. module: delivery_easypost_oca
+#. odoo-python
+#: code:addons/delivery_easypost_oca/models/delivery_carrier.py:0
+msgid "You can't cancel Easypost shipping."
+msgstr "Не можна скасувати доставку Easypost."

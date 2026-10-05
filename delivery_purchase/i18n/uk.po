@@ -32,3 +32,44 @@ msgstr "Є доставкою"
 #: model:ir.model.fields,field_description:delivery_purchase.field_purchase_order_line__delivery_picking_orig_id
 msgid "Origin picking (delivery)"
 msgstr "Початкове переміщення (доставка)"
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/delivery_carrier.py:0
+msgid "Error: no matching grid."
+msgstr "Помилка: відповідну сітку не знайдено."
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/delivery_carrier.py:0
+msgid "Error: this delivery method is not available for this address."
+msgstr "Помилка: цей спосіб доставки недоступний для цієї адреси."
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/purchase_order.py:0
+msgid "Free Shipping"
+msgstr "Безкоштовна доставка"
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/stock_picking.py:0
+msgid ""
+"Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
+"%(tracking_ref)s<br/>Cost: %(carrier_price)s %(currency_name)s"
+msgstr ""
+"Відправлення передано перевізнику %(carrier_name)s для доставки з номером "
+"відстеження %(tracking_ref)s<br/>Вартість: %(carrier_price)s "
+"%(currency_name)s"
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/delivery_carrier.py:0
+msgid "The shipping is free since the order amount exceeds %.2f."
+msgstr "Доставка безкоштовна, оскільки сума замовлення перевищує %.2f."
+
+#. module: delivery_purchase
+#. odoo-python
+#: code:addons/delivery_purchase/models/delivery_carrier.py:0
+msgid "There is no matching delivery rule."
+msgstr "Відповідного правила доставки не знайдено."

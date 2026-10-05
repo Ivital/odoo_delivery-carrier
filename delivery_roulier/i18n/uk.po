@@ -42,3 +42,55 @@ msgstr "URI відстеження посилки"
 #: model:ir.model.fields,help:delivery_roulier.field_stock_quant_package__parcel_tracking_uri
 msgid "Link to the carrier's tracking page for this package."
 msgstr "Посилання на сторінку відстеження перевізника для цього пакунка."
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_picking.py:0
+msgid "No account available with name '%s' for this carrier"
+msgstr "Для цього перевізника немає рахунку з назвою «%s»"
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_quant_package.py:0
+msgid "No pack found for picking %s"
+msgstr "Пакунок для комплектування %s не знайдено"
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_picking.py:0
+msgid "No packages found for this picking"
+msgstr "Пакунки для цього комплектування не знайдено"
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_quant_package.py:0
+msgid ""
+"Roulier library Exception for '%(carrier)s' carrier:\n"
+"\n"
+"%(exception)s\n"
+"\n"
+"Sent data:\n"
+"%(payload)s"
+msgstr ""
+"Виняток бібліотеки Roulier для перевізника «%(carrier)s»:\n"
+"\n"
+"%(exception)s\n"
+"\n"
+"Надіслані дані:\n"
+"%(payload)s"
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_picking.py:0
+msgid ""
+"Some products have no destination package in picking %s, please add a "
+"destination package in order to be able to generate the carrier label."
+msgstr ""
+"Деякі товари не мають пакування призначення в переміщенні %s; додайте "
+"пакування призначення, щоб згенерувати етикетку перевізника."
+
+#. module: delivery_roulier
+#. odoo-python
+#: code:addons/delivery_roulier/models/stock_quant_package.py:0
+msgid "The tracking url is not available."
+msgstr "URL відстеження недоступний."

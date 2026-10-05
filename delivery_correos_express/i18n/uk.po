@@ -37,3 +37,61 @@ msgstr "Тип етикетки Correos Express"
 #: model_terms:ir.ui.view,arch_db:delivery_correos_express.view_picking_withcarrier_out_form
 msgid "Print Correos Express Label"
 msgstr "Друкувати етикетку Correos Express"
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/delivery_carrier.py:0
+msgid ""
+"Correos Express API doesn't provide methods to compute delivery rates, so "
+"you should rely on another price method instead or override this one in your"
+" custom code."
+msgstr ""
+"API Correos Express не надає методів для розрахунку тарифів доставки, тому "
+"слід використовувати інший метод ціноутворення або перевизначити цей у "
+"власному коді."
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/correos_express_request.py:0
+msgid "Correos Express Error: {return_code} {message}"
+msgstr "Помилка Correos Express: {return_code} {message}"
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/delivery_carrier.py:0
+msgid ""
+"Correos Express does not provide a method to cancel a shipment that has been"
+" registered. If you need to change some information you, create a new "
+"shipment with a new label. This doesn't mean that the shipment will be "
+"invoiced, this only happens if the package is picked up and it enters the "
+"shipping stage"
+msgstr ""
+"Correos Express не надає способу скасувати вже зареєстроване відправлення. "
+"Якщо потрібно змінити інформацію, створіть нове відправлення з новою "
+"етикеткою. Це не означає, що за відправлення буде виставлено рахунок: це "
+"відбудеться лише тоді, коли посилку заберуть і вона перейде на етап "
+"доставки."
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/stock_picking.py:0
+msgid "Correos Express label for %s"
+msgstr "Мітка Correos Express для %s"
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/stock_picking.py:0
+msgid "No label was returned"
+msgstr "Мітку не повернуто"
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/correos_express_request.py:0
+msgid "Timeout: the server did not reply within 60s"
+msgstr "Тайм-аут: сервер не відповів протягом 60 с"
+
+#. module: delivery_correos_express
+#. odoo-python
+#: code:addons/delivery_correos_express/models/correos_express_request.py:0
+msgid "Unsupported request type, please only use 'GET' or 'POST'"
+msgstr "Непідтримуваний тип запиту, використовуйте лише 'GET' або 'POST'"

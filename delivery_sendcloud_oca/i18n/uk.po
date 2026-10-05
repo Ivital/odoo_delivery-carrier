@@ -2654,3 +2654,252 @@ msgid ""
 msgstr ""
 "Якщо це значення порожнє, ціна розраховується на основі прайс-листа за "
 "країнами"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "All done!"
+msgstr "Усе готово!"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Are you sure you want to hide these configuration steps?"
+msgstr "Ви впевнені, що хочете приховати ці кроки налаштування?"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Close Panel"
+msgstr "Закрити панель"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Close the onboarding panel"
+msgstr "Закрити панель налаштування"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/sendcloud_parcel.py:0
+msgid "Document not available: no link provided."
+msgstr "Документ недоступний: посилання не вказано."
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/js/backend.esm.js:0
+msgid "Failure in opening Service Point Selector"
+msgstr "Не вдалося відкрити вибір точки обслуговування"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Get them out of my sight!"
+msgstr "Приберіть їх з очей!"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid ""
+"Harmonized System Code is mandatory when shipping outside of EU and to some states.\n"
+"You should set the HS Code for product %s"
+msgstr ""
+"Код Гармонізованої системи є обов’язковим при відправленні за межі ЄС і до деяких штатів.\n"
+"Вкажіть HS-код для товару %s"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Hide Onboarding Tips"
+msgstr "Приховати підказки налаштування"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_warehouse_address_wizard.py:0
+msgid "Inconsistent countries:"
+msgstr "Невідповідні країни:"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/abstract_sendcloud_request.py:0
+msgid "Internal server error."
+msgstr "Внутрішня помилка сервера."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/sendcloud_parcel.py:0
+msgid "Label not available: no label printer url provided."
+msgstr "Мітка недоступна: URL принтера етикеток не вказано."
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Let's do it"
+msgstr "Зробімо це"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_sync_order_wizard.py:0
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_sync_wizard.py:0
+msgid "No Sendcloud integrations found. Setup an integration first."
+msgstr "Інтеграції Sendcloud не знайдено. Спочатку налаштуйте інтеграцію."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid ""
+"Origin Country is mandatory when shipping outside of EU and to some states."
+msgstr ""
+"Країна походження є обов’язковою при відправленні за межі ЄС і до деяких "
+"штатів."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/delivery_carrier.py:0
+msgid "Partner does not have any country."
+msgstr "Партнер не має країни."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid "Refund message is required"
+msgstr "Потрібне повідомлення про повернення"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid "Refund option is required"
+msgstr "Потрібен варіант повернення"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/abstract_sendcloud_request.py:0
+msgid "Request: %s"
+msgstr "Запит: %s"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid "Return Details"
+msgstr "Деталі повернення"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid "Sendcloud Carrier not enabled for this integration."
+msgstr "Перевізник Sendcloud не ввімкнений для цієї інтеграції."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid "Sendcloud Service Point is Required!"
+msgstr "Потрібен пункт обслуговування Sendcloud!"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid "Sendcloud Service Point is required."
+msgstr "Потрібен пункт обслуговування Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid "Sendcloud Service Point not enabled for this integration."
+msgstr "Точку обслуговування Sendcloud не ввімкнено для цієї інтеграції."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/delivery_carrier.py:0
+msgid ""
+"Sendcloud cannot generate returns.Please handle this return with the carrier"
+" directly."
+msgstr ""
+"Sendcloud не може створити повернення. Обробіть це повернення безпосередньо "
+"з перевізником."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+msgid ""
+"Sendcloud shipping method not compatible with selected packaging.\n"
+"Please select a shipping method such that the collis' weights are between Min Weight and Max Weight."
+msgstr ""
+"Спосіб доставки Sendcloud несумісний із вибраним пакуванням.\n"
+"Виберіть такий спосіб доставки, щоб вага місць була між мінімальною та максимальною вагою."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/abstract_sendcloud_request.py:0
+msgid "Sendcloud timeout: the server didn't reply within 30s"
+msgstr "Тайм-аут Sendcloud: сервер не відповів протягом 30 с"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid "Sendcloud: %(message)s (error code: '%(code)s')"
+msgstr "Sendcloud: %(message)s (код помилки: «%(code)s»)"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/abstract_sendcloud_request.py:0
+msgid "Sendcloud: %(reason)s (error code %(status_code)s)"
+msgstr "Sendcloud: %(reason)s (код помилки %(status_code)s)"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid ""
+"Sendcloud: error %(error_code)s\n"
+"%(error_msg)s"
+msgstr ""
+"Sendcloud: помилка %(error_code)s\n"
+"%(error_msg)s"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/sendcloud_integration.py:0
+msgid "Sendcloud: select at least one service point carrier"
+msgstr ""
+"Sendcloud: виберіть щонайменше одного перевізника точки обслуговування"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/abstract_sendcloud_request.py:0
+msgid "Sendcloud: server not reachable, try again later"
+msgstr "Sendcloud: сервер недоступний, спробуйте пізніше"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/js/backend.esm.js:0
+msgid "Service Point Selector"
+msgstr "Вибір пункту обслуговування"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/delivery_carrier.py:0
+msgid "The company is mandatory when delivery carrier is Sendcloud."
+msgstr "Компанія є обов’язковою, коли перевізник доставки — Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/delivery_carrier.py:0
+msgid "The company is not consistent with the integration company."
+msgstr "Компанія не узгоджується з компанією інтеграції."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_sync_order_wizard.py:0
+msgid "There are no outgoing shipments set with Sendcloud shipping method."
+msgstr "Немає вихідних відправлень зі способом доставки Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/delivery_carrier.py:0
+msgid "This shipping method requires a Service Point."
+msgstr "Для цього способу доставки потрібна точка обслуговування."
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_integration_wizard.py:0
+msgid "Webhook URL: %(reason)s (error code %(status_code)s)"
+msgstr "URL вебхука: %(reason)s (код помилки %(status_code)s)"
