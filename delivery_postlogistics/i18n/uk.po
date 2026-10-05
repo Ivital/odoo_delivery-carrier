@@ -284,3 +284,104 @@ msgstr "для доступних кодів."
 #: model_terms:ir.ui.view,arch_db:delivery_postlogistics.stock_package_type_form_delivery
 msgid "the documentation"
 msgstr "документація"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_delivery_carrier__postlogistics_tracking_format
+msgid ""
+"Allows you to define how the ItemNumber (the last 8 digits) of the tracking number will be generated:\n"
+"- Default postlogistics numbers: The webservice generates it for you.\n"
+"- Picking number with pack counter: Generate it using the digits of picking name and add the pack number. 2 digits forpack number and 6 digits for picking number. (eg. 07000042 for picking 42 and 7th pack"
+msgstr ""
+"Дає змогу визначити, як генеруватиметься ItemNumber (останні 8 цифр) номера відстеження:\n"
+"- Типові номери PostLogistics: вебсервіс генерує їх автоматично.\n"
+"- Номер складської операції з лічильником пакування: генерується з цифр назви складської операції з додаванням номера пакування. 2 цифри для номера пакування і 6 цифр для номера складської операції (наприклад 07000042 для складської операції 42 і 7-го пакування)."
+
+#. module: delivery_postlogistics
+#: model:ir.model,name:delivery_postlogistics.model_delivery_carrier_template_option
+msgid "Delivery carrier template option"
+msgstr "Параметр шаблону перевізника доставки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_stock_picking__delivery_place
+msgid "For Deposit item service (ZAW3219)"
+msgstr "Для сервісного елемента депозиту (ZAW3219)"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_stock_picking__delivery_mobile
+#: model:ir.model.fields,help:delivery_postlogistics.field_stock_picking__delivery_phone
+msgid "For notify delivery by telephone (ZAW3213)"
+msgstr "Для сповіщення про доставку телефоном (ZAW3213)"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_postlogistics_license__sequence
+msgid ""
+"Gives the sequence on company to define priority on license when multiple "
+"licenses are available for the same group of service."
+msgstr ""
+"Визначає послідовність у компанії для пріоритету ліцензії, коли для однієї "
+"групи послуг доступно кілька ліцензій."
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_stock_quant_package__postlogistics_manual_cod_amount
+msgid ""
+"If the cash on delivery amount for this package is different than the total "
+"of the sales order, write the amount there."
+msgstr ""
+"Якщо сума післяплати для цього пакування відрізняється від загальної суми "
+"замовлення на продаж, укажіть її тут."
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_delivery_carrier__postlogistics_logo
+msgid ""
+"Optional company logo to show on label.\n"
+"If using an image / logo, please note the following:\n"
+"– Image width: 47 mm\n"
+"– Image height: 25 mm\n"
+"– File size: max. 30 kb\n"
+"– File format: GIF or PNG\n"
+"– Colour table: indexed colours, max. 200 colours\n"
+"– The logo will be printed rotated counter-clockwise by 90°\n"
+"We recommend using a black and white logo for printing in  the ZPL2 format."
+msgstr ""
+"Необов'язковий логотип компанії для відображення на етикетці.\n"
+"Якщо використовується зображення/логотип, зверніть увагу:\n"
+"– Ширина зображення: 47 мм\n"
+"– Висота зображення: 25 мм\n"
+"– Розмір файлу: макс. 30 КБ\n"
+"– Формат файлу: GIF або PNG\n"
+"– Таблиця кольорів: індексовані кольори, макс. 200 кольорів\n"
+"– Логотип буде надруковано з поворотом на 90° проти годинникової стрілки\n"
+"Для друку у форматі ZPL2 рекомендуємо використовувати чорно-білий логотип."
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_delivery_carrier__postlogistics_office
+msgid "Post office which will receive the shipped goods"
+msgstr "Поштове відділення, яке отримає відправлені товари"
+
+#. module: delivery_postlogistics
+#: model:product.template,name:delivery_postlogistics.product_postlogistics_service_product_template
+msgid "PostLogistics Delivery"
+msgstr "Доставка PostLogistics"
+
+#. module: delivery_postlogistics
+#: model:ir.model,name:delivery_postlogistics.model_postlogistics_license
+msgid "PostLogistics Franking License"
+msgstr "Ліцензія франкування PostLogistics"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_stock_picking__delivery_fixed_date
+msgid "Specific delivery date (ZAW3217)"
+msgstr "Конкретна дата доставки (ZAW3217)"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,help:delivery_postlogistics.field_delivery_carrier__postlogistics_proclima_logo
+msgid ""
+"The “pro clima” logo indicates an item for which the surcharge for carbon-"
+"neutral shipping has been paid and a contract to that effect has been "
+"signed. For Letters with barcode (BMB) domestic, the ProClima logo is "
+"printed automatically (at no additional charge)"
+msgstr ""
+"Логотип «pro clima» позначає відправлення, для якого сплачено надбавку за "
+"вуглецево-нейтральну доставку та укладено відповідний договір. Для "
+"внутрішніх листів зі штрихкодом (BMB) логотип ProClima друкується "
+"автоматично (без додаткової плати)."

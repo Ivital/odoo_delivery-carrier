@@ -29,3 +29,8 @@ msgstr "Обмежити максимальну вагу пакунків"
 #: model:ir.model.fields,field_description:delivery_carrier_max_weight_constraint.field_stock_package_type__is_strict_weight
 msgid "Overweight forbidden"
 msgstr "Перевищення ваги заборонено"
+
+#. module: delivery_carrier_max_weight_constraint
+#: model:ir.model.fields,help:delivery_carrier_max_weight_constraint.field_stock_package_type__is_strict_weight
+msgid "The maximum weight of the package can't be exceeded."
+msgstr "Максимальну вагу пакунка не можна перевищувати."

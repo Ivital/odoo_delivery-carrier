@@ -78,3 +78,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: delivery_carrier_account
+#: model:ir.model,name:delivery_carrier_account.model_carrier_account
+msgid "Base account datas"
+msgstr "Базові дані рахунку"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,help:delivery_carrier_account.field_carrier_account__delivery_type
+msgid "This field may be used to link an account to a carrier"
+msgstr "Це поле можна використовувати для прив’язки рахунку до перевізника"

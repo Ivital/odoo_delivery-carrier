@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_warehouse.field_stock_warehouse__delivery_carrier_id
 msgid "Delivery Method"
 msgstr "Спосіб доставки"
+
+#. module: delivery_carrier_warehouse
+#: model:ir.model.fields,help:delivery_carrier_warehouse.field_stock_warehouse__delivery_carrier_id
+msgid ""
+"Default delivery method used in sales orders. Will be applied only if the "
+"partner does not have a default delivery method."
+msgstr ""
+"Типовий спосіб доставки в замовленнях на продаж. Застосовується лише якщо "
+"партнер не має типового способу доставки."

@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_info.field_delivery_carrier__code
 msgid "Code"
 msgstr "Код"
+
+#. module: delivery_carrier_info
+#: model:ir.model.fields,help:delivery_carrier_info.field_delivery_carrier__code
+msgid "Delivery Method Code (according to carrier)"
+msgstr "Код способу доставки (за перевізником)"

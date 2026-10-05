@@ -28,3 +28,22 @@ msgstr "Стан доставки"
 #: model:ir.model.fields,field_description:delivery_state_manual.field_stock_picking__delivery_state_manual
 msgid "Manual Delivery State"
 msgstr "Ручний стан доставки"
+
+#. module: delivery_state_manual
+#: model:ir.model.fields,help:delivery_state_manual.field_delivery_carrier__delivery_state_manual
+#: model:ir.model.fields,help:delivery_state_manual.field_stock_picking__delivery_state_manual
+msgid ""
+"Setting this field will allow users to manually edit the delivery state "
+"field of its pickings. It will also hide the picking's tracking state fields"
+msgstr ""
+"Це поле дозволяє користувачам вручну редагувати стан доставки складських "
+"переміщень. Воно також приховує поля стану відстеження переміщення"
+
+#. module: delivery_state_manual
+#: model:ir.model.fields,help:delivery_state_manual.field_stock_picking__delivery_state
+msgid ""
+"This field is set automatically unless the delivery carrier is marked as "
+"manual. If manually edited, the carrier dates will be updated"
+msgstr ""
+"Це поле встановлюється автоматично, якщо перевізника не позначено як "
+"ручного. Якщо змінити його вручну, дати перевізника буде оновлено."

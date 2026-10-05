@@ -132,3 +132,17 @@ msgstr "Оновити стан відстеження"
 #: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__warehouse_delivered
 msgid "Warehouse delivered"
 msgstr "Склад доставлено"
+
+#. module: delivery_state
+#: model:mail.template,name:delivery_state.delivery_state_delivered_notification
+msgid "Delivery: Picking delivered by Email"
+msgstr "Доставка: переміщення доставлено email"
+
+#. module: delivery_state
+#: model:mail.template,subject:delivery_state.delivery_state_delivered_notification
+msgid ""
+"Your order {{ object.carrier_tracking_ref or object.name }} from {{ "
+"object.company_id.name }}"
+msgstr ""
+"Ваше замовлення {{ object.carrier_tracking_ref or object.name }} від {{ "
+"object.company_id.name }}"

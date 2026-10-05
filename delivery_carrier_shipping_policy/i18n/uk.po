@@ -27,3 +27,8 @@ msgstr "Політика відвантаження"
 #: model:ir.model.fields.selection,name:delivery_carrier_shipping_policy.selection__delivery_carrier__picking_policy__one
 msgid "When all products are ready"
 msgstr "Коли всі товари готові"
+
+#. module: delivery_carrier_shipping_policy
+#: model:ir.model.fields,help:delivery_carrier_shipping_policy.field_delivery_carrier__picking_policy
+msgid "Shipping policy to use on sales orders."
+msgstr "Політика доставки для замовлень на продаж."

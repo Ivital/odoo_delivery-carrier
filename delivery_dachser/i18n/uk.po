@@ -344,3 +344,8 @@ msgstr "Конфігурація Dachser"
 #: model:ir.model.fields,field_description:delivery_dachser.field_delivery_carrier__dachser_default_packaging_id
 msgid "Default Packaging Type"
 msgstr "Тип пакування за замовчуванням"
+
+#. module: delivery_dachser
+#: model:ir.model.fields,help:delivery_dachser.field_delivery_carrier__dachser_default_packaging_id
+msgid "Default weight, height, width and length for packages"
+msgstr "Типові вага, висота, ширина та довжина пакунків"

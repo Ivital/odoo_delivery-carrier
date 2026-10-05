@@ -37,3 +37,8 @@ msgstr "URL відстеження перевізника"
 #: model:ir.model.fields,field_description:delivery_roulier.field_stock_quant_package__parcel_tracking_uri
 msgid "Parcel Tracking Uri"
 msgstr "URI відстеження посилки"
+
+#. module: delivery_roulier
+#: model:ir.model.fields,help:delivery_roulier.field_stock_quant_package__parcel_tracking_uri
+msgid "Link to the carrier's tracking page for this package."
+msgstr "Посилання на сторінку відстеження перевізника для цього пакунка."

@@ -79,3 +79,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,help:delivery_carrier_agency.field_delivery_carrier_agency__external_reference
+msgid "Reference or code supplied by the carrier"
+msgstr "Посилання або код, наданий перевізником"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,help:delivery_carrier_agency.field_delivery_carrier_agency__carrier_ids
+msgid ""
+"This field may be used to link an account to specific delivery methods It "
+"may be usefull to find an account with more precision than with only the "
+"delivery type"
+msgstr ""
+"Це поле можна використовувати для прив’язки рахунку до конкретних способів "
+"доставки. Воно допомагає точніше знайти рахунок, ніж лише за типом доставки."

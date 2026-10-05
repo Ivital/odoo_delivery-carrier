@@ -1307,3 +1307,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
 msgid "e.g. www.odoo.com"
 msgstr "напр. www.odoo.com"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,help:delivery_dropoff_site.field_dropoff_site__country_enforce_cities
+msgid ""
+"Check this box to ensure every address created in that country has a 'City' "
+"chosen in the list of the country's cities."
+msgstr ""
+"Позначте, щоб кожна адреса, створена в цій країні, мала «Місто», вибране зі "
+"списку міст країни."
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,help:delivery_dropoff_site.field_dropoff_site__property_delivery_carrier_id
+msgid "Default delivery method used in sales orders."
+msgstr "Типовий спосіб доставки в замовленнях на продаж."
+
+#. module: delivery_dropoff_site
+#: model:ir.model.constraint,message:delivery_dropoff_site.constraint_res_partner_dropoff_site_id_uniq
+msgid "Dropoff Site with the same id already exists : must be unique"
+msgstr "Місце доставки з таким ID уже існує: значення має бути унікальним"
+
+#. module: delivery_dropoff_site
+#: model:ir.model,name:delivery_dropoff_site.model_dropoff_site
+msgid "Dropoff site"
+msgstr "Місце висадки"

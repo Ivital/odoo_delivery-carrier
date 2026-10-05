@@ -74,3 +74,8 @@ msgstr ""
 "Для кожного рядка нижче щоразу, коли виконується переміщення, до замовлення\n"
 "                        на продаж додається рядок із товаром. Одиницею є кількість пакувань\n"
 "                        у переміщенні, а ціною — ціна товару за прайс-листом."
+
+#. module: delivery_package_fee
+#: model:ir.model,name:delivery_package_fee.model_delivery_package_fee
+msgid "Delivery Package Fees"
+msgstr "Комісії за пакування доставки"

@@ -222,3 +222,117 @@ msgstr "Тип пакунка за замовчуванням"
 #: model_terms:ir.ui.view,arch_db:delivery_schenker.view_delivery_carrier_form
 msgid "Schenker Configuration"
 msgstr "Конфігурація Schenker"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_service_air
+msgid ""
+"Air shipping product options. Depending on your customer account, some "
+"services could not be available"
+msgstr ""
+"Варіанти товарів для авіадоставки. Залежно від облікового запису клієнта "
+"деякі послуги можуть бути недоступні"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_booking_type
+msgid "Choose Schenker booking type. Only land is currently supported"
+msgstr "Виберіть тип бронювання Schenker. Наразі підтримується лише наземне."
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_stock_package_type__schenker_stackable
+msgid "Define if the package is stackable by default"
+msgstr "Визначає, чи можна за замовчуванням штабелювати пакунок"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_indoor_delivery
+msgid "Defines if indoor delivery is required"
+msgstr "Визначає, чи потрібна доставка всередину приміщення"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_express
+msgid "Defines if shipment is express"
+msgstr "Визначає, чи є відправлення експрес-доставкою"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_food_related
+msgid "Defines if shipment is food related"
+msgstr "Визначає, чи пов’язане відправлення з харчовими продуктами"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_pharmaceuticals
+msgid "Defines if shipment is pharmaceutical"
+msgstr "Визначає, чи є відправлення фармацевтичним"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_heated_transport
+msgid "Defines if shipment is required heated transport"
+msgstr "Визначає, чи потрібен підігрітий транспорт для відправлення"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_home_delivery
+msgid "Defines if shipment is required home delivery"
+msgstr "Визначає, чи потрібна доставка додому"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_own_pickup
+msgid "Defines if shipment is required own pickup"
+msgstr "Визначає, чи потрібен самовивіз відправлення"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_service_type
+msgid ""
+"Defines service type: D2D, D2P, P2D, P2P, D2A, A2D, A2A. Depending on the "
+"Transport mode the service will be validated. For instance if the transport "
+"mode is AIR, the service type A2A (AirportToAirport)"
+msgstr ""
+"Визначає тип сервісу: D2D, D2P, P2D, P2P, D2A, A2D, A2A. Тип сервісу "
+"перевірятиметься залежно від виду транспорту. Наприклад, якщо видом "
+"транспорту є AIR, тип сервісу — A2A (AirportToAirport)."
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_barcode_a4_separated
+msgid "For A4 define if the labels shall be printed on separate pages"
+msgstr "Для A4 визначає, чи слід друкувати етикетки на окремих сторінках"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_barcode_a4_start_pos
+msgid "For A4 format you can define the starting position"
+msgstr "Для формату A4 можна визначити початкову позицію"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_default_package_type_id
+msgid ""
+"If not delivery package or the package doesn't have defined the packaging it"
+" will default to this type"
+msgstr ""
+"Якщо пакування доставки відсутнє або в пакуванні не визначено тип, типово "
+"використовуватиметься цей тип"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_incoterm_id
+msgid "It will be overriden by the sale order one if it's specified."
+msgstr ""
+"Буде перевизначено значенням із замовлення на продаж, якщо його вказано."
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_service_land
+msgid ""
+"Land shipping product options. Depending on your customer account, some "
+"services could not be available"
+msgstr ""
+"Варіанти товарів для наземної доставки. Залежно від облікового запису "
+"клієнта деякі послуги можуть бути недоступні"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_barcode_mail
+msgid "Optional: send a barcode copy to this email address"
+msgstr "Необов’язково: надіслати копію штрихкоду на цю email-адресу"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_access_key
+msgid "Schenker Access Key"
+msgstr "Ключ доступу Schenker"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,help:delivery_schenker.field_delivery_carrier__schenker_measure_unit
+msgid "The proper request will be formed accordingly from the picking"
+msgstr "Відповідний запит буде сформовано згідно з комплектуванням"

@@ -39,3 +39,18 @@ msgstr "Водій за замовчуванням"
 #: model_terms:ir.ui.view,arch_db:stock_fleet_delivery_driver.stock_picking_batch_form
 msgid "Driver of the Vehicle"
 msgstr "Водій транспортного засобу"
+
+#. module: stock_fleet_delivery_driver
+#: model:ir.model.fields,help:stock_fleet_delivery_driver.field_stock_picking_type__batch_group_by_driver
+msgid "Automatically group batches by driver"
+msgstr "Автоматично групувати пакети за водієм"
+
+#. module: stock_fleet_delivery_driver
+#: model:ir.model.fields,help:stock_fleet_delivery_driver.field_stock_picking_type__batch_group_by_vehicle
+msgid "Automatically group batches by vehicle"
+msgstr "Автоматично групувати пакети за транспортним засобом"
+
+#. module: stock_fleet_delivery_driver
+#: model:ir.model.fields,help:stock_fleet_delivery_driver.field_delivery_carrier__driver_id
+msgid "Default driver for this delivery method"
+msgstr "Типовий водій для цього способу доставки"

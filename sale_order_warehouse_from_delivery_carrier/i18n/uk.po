@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_warehouse_from_delivery_carrier.field_delivery_carrier__so_warehouse_id
 msgid "Sales Order Warehouse"
 msgstr "Склад замовлення на продаж"
+
+#. module: sale_order_warehouse_from_delivery_carrier
+#: model:ir.model.fields,help:sale_order_warehouse_from_delivery_carrier.field_delivery_carrier__so_warehouse_id
+msgid "Default warehouse for the sales order that uses this delivery carrier"
+msgstr ""
+"Склад за замовчуванням для замовлення на продаж, що використовує цього "
+"перевізника"

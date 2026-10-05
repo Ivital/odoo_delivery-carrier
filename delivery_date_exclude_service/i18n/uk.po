@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_date_exclude_service.field_product_template__service_affect_delivery_date
 msgid "Affect Delivery Date"
 msgstr "Впливає на дату доставки"
+
+#. module: delivery_date_exclude_service
+#: model:ir.model.fields,help:delivery_date_exclude_service.field_product_product__service_affect_delivery_date
+#: model:ir.model.fields,help:delivery_date_exclude_service.field_product_template__service_affect_delivery_date
+msgid ""
+"By default, this service product won't impact the sales order delivery date "
+"computation unless this is flagged."
+msgstr ""
+"За замовчуванням цей сервісний товар не впливатиме на розрахунок дати "
+"доставки замовлення на продаж, якщо це не позначено."

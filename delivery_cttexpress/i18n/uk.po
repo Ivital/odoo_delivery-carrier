@@ -253,3 +253,18 @@ msgstr "Запит на забір CTT Express"
 #: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_pickup_wizard_form
 msgid "Your pickup request code:"
 msgstr "Код вашого запиту на забір:"
+
+#. module: delivery_cttexpress
+#: model:ir.model,name:delivery_cttexpress.model_cttexpress_pickup_wizard
+msgid "Generate shipping pickups"
+msgstr "Створити забори відправлень"
+
+#. module: delivery_cttexpress
+#: model:ir.model,name:delivery_cttexpress.model_cttexpress_manifest_wizard
+msgid "Get the CTT Express Manifest for the given date range"
+msgstr "Отримати маніфест CTT Express для заданого діапазону дат"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,help:delivery_cttexpress.field_cttexpress_manifest_wizard__carrier_ids
+msgid "Leave empty to gather all the CTT account manifests"
+msgstr "Залиште порожнім, щоб зібрати всі маніфести рахунків CTT"

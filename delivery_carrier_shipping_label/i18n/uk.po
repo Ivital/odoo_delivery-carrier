@@ -182,3 +182,12 @@ msgstr "Етикетка доставки"
 #: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__store_fname
 msgid "Stored Filename"
 msgstr "Збережена назва файлу"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,help:delivery_carrier_shipping_label.field_shipping_label__type
+msgid ""
+"You can either upload a file from your computer or copy/paste an internet "
+"link to your file."
+msgstr ""
+"Ви можете завантажити файл з комп'ютера або скопіювати та вставити посилання"
+" на ваш файл."

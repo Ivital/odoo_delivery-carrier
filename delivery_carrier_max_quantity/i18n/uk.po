@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_max_quantity.field_delivery_carrier__max_quantity
 msgid "Max Quantity"
 msgstr "Максимальна кількість"
+
+#. module: delivery_carrier_max_quantity
+#: model:ir.model.fields,help:delivery_carrier_max_quantity.field_delivery_carrier__max_quantity
+msgid ""
+"If the total quantity of the order is over this quantity, the method won't "
+"be available."
+msgstr ""
+"Якщо загальна кількість замовлення перевищує цю кількість, метод буде "
+"недоступний."

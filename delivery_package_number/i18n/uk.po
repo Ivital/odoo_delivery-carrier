@@ -143,3 +143,19 @@ msgstr "Кількість пакунків у звіті"
 #: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__stock_number_package_validation_line_ids
 msgid "Stock Number Package Validation Line"
 msgstr "Рядок перевірки кількості пакувань запасу"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,help:delivery_package_number.field_stock_number_package_validate_wizard__number_of_packages
+msgid "Set the number of packages for this picking(s)"
+msgstr "Установити кількість пакунків для цього/цих переміщень"
+
+#. module: delivery_package_number
+#: model:ir.model,name:delivery_package_number.model_stock_number_package_validate_line_wizard
+msgid "Stock Number Package Lines Wizard"
+msgstr "Майстер кількості рядків пакування запасу"
+
+#. module: delivery_package_number
+#: model:ir.model,name:delivery_package_number.model_stock_number_package_validate_wizard
+msgid "Wizard to force set number of pickings when validate"
+msgstr ""
+"Майстер примусового встановлення кількості переміщень під час підтвердження"

@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_package_type_shipping_weight.field_stock_package_type__is_base_weight_shipping_weight
 msgid "Is shipping weight"
 msgstr "Є вагою відправлення"
+
+#. module: delivery_package_type_shipping_weight
+#: model:ir.model.fields,help:delivery_package_type_shipping_weight.field_stock_package_type__is_base_weight_shipping_weight
+msgid ""
+"When flagged, the package type weight will be the package total weight.\n"
+"         The product weight won't be added"
+msgstr ""
+"Якщо позначено, вага типу пакування вважатиметься загальною вагою пакування.\n"
+"         Вага товару не додаватиметься"

@@ -2354,3 +2354,303 @@ msgstr "Оновити адреси"
 #: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__external_reference
+msgid "A field to use as a reference for your order."
+msgstr "Поле для використання як посилання вашого замовлення."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__collo_nr
+msgid ""
+"A number indicating the collo number within a shipment. For a non-multi-"
+"collo shipment, this value will always be 0. In a multi-collo shipment with "
+"3 collos, this number will range from 0 to 2."
+msgstr ""
+"Число, що позначає номер вантажного місця (collo) у відправленні. Для "
+"відправлення без кількох вантажних місць це значення завжди дорівнює 0. У "
+"відправленні з 3 вантажними місцями номер буде в діапазоні від 0 до 2."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__collo_count
+msgid ""
+"A number indicating the number of collos within a shipment. For non-multi-"
+"collo shipments, this value will always be 1."
+msgstr ""
+"Число, що показує кількість місць у відправленні. Для відправлень не multi-"
+"collo значення завжди дорівнює 1."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__address_2
+msgid "An apartment or floor number."
+msgstr "Номер квартири або поверху."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__documents
+msgid ""
+"An array of documents. A parcel can contain multiple documents, for instance"
+" labels and a customs form. This field returns an array of all the available"
+" documents for this parcel."
+msgstr ""
+"Масив документів. Посилка може містити кілька документів, наприклад етикетки"
+" та митну форму. Це поле повертає масив усіх доступних документів для цієї "
+"посилки."
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,title:delivery_sendcloud_oca.onboarding_warehouse_address_step
+msgid "Configure Warehouse Addresses"
+msgstr "Налаштувати адреси складів"
+
+#. module: delivery_sendcloud_oca
+#: model:product.template,description_sale:delivery_sendcloud_oca.sendcloud_product_delivery_product_template
+msgid "Delivery Cost"
+msgstr "Вартість доставки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_integration__sequence
+msgid "Determine the display order"
+msgstr "Визначає порядок відображення"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,done_text:delivery_sendcloud_oca.onboarding_warehouse_address_step
+msgid "Enjoy!"
+msgstr "Готово!"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__insured_value
+msgid "Insured Value is in Euro currency."
+msgstr "Застрахована вартість у євро."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_stock_picking__sendcloud_insured_value
+msgid "Insured Value must be in Euro currency."
+msgstr "Застрахована вартість має бути в євро."
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,done_text:delivery_sendcloud_oca.onboarding_sync_step
+msgid "Looks great!"
+msgstr "Виглядає чудово!"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__colli_tracking_number
+msgid ""
+"Multi-collo only. This is a tracking number assigned by the carrier to "
+"identify the entire multi-collo shipment."
+msgstr ""
+"Лише для multi-collo. Це номер відстеження, призначений перевізником для "
+"ідентифікації всього відправлення multi-collo."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__type
+msgid ""
+"Returns either ‘parcel’ or ‘letter’ by which you can determine the type of "
+"your shipment."
+msgstr ""
+"Повертає «parcel» або «letter», за чим можна визначити тип відправлення."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_action
+msgid "Sendcloud Action"
+msgstr "Дія Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_brand
+msgid "Sendcloud Brand"
+msgstr "Бренд Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_cancel_shipment_confirm_wizard
+msgid "Sendcloud Cancel Shipment Confirm Wizard"
+msgstr "Майстер підтвердження скасування відправлення Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard
+msgid "Sendcloud Create Return Parcel Wizard"
+msgstr "Майстер створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard_delivery_option
+msgid "Sendcloud Create Return Parcel Wizard Delivery Option"
+msgstr "Параметр доставки майстра створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard_line
+msgid "Sendcloud Create Return Parcel Wizard Line"
+msgstr "Рядок майстра створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard_reason
+msgid "Sendcloud Create Return Parcel Wizard Reason"
+msgstr "Причина майстра створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard_refund_option
+msgid "Sendcloud Create Return Parcel Wizard Refund Option"
+msgstr ""
+"Параметр повернення коштів майстра створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_create_return_parcel_wizard_return_location
+msgid "Sendcloud Create Return Parcel Wizard Return Location"
+msgstr "Місце повернення майстра створення зворотної посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_custom_price_details_wizard
+msgid "Sendcloud Custom Price Details Wizard"
+msgstr "Майстер деталей власної ціни Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_integration_wizard
+msgid "Sendcloud Integration Wizard"
+msgstr "Майстер інтеграції Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_invoice_item
+msgid "Sendcloud Invoice Items"
+msgstr "Елементи рахунка Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_mixin
+msgid "Sendcloud Mixin Abstract"
+msgstr "Абстрактний міксин Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding,name:delivery_sendcloud_oca.onboarding_onboarding_sendcloud
+msgid "Sendcloud Onboarding"
+msgstr "Онбординг Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_parcel_document
+msgid "Sendcloud Parcel Document"
+msgstr "Документ посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_parcel_item
+msgid "Sendcloud Parcel Items"
+msgstr "Елементи посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_request
+msgid "Sendcloud Request Abstract"
+msgstr "Абстракція запиту Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_return
+msgid "Sendcloud Return"
+msgstr "Повернення Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_shipping_method_country
+msgid "Sendcloud Shipping Method Country"
+msgstr "Країна способу доставки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_shipping_method_country_custom
+msgid "Sendcloud Shipping Method Country Custom"
+msgstr "Власна країна способу доставки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_sync_order_wizard
+msgid "Sendcloud Sync Order Wizard"
+msgstr "Майстер синхронізації замовлення Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_sync_wizard
+msgid "Sendcloud Sync Wizard"
+msgstr "Майстер синхронізації Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_warehouse_address_wizard
+msgid "Sendcloud Warehouse Address Wizard"
+msgstr "Майстер адреси складу Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:product.template,name:delivery_sendcloud_oca.sendcloud_product_delivery_product_template
+msgid "Sendcloud delivery charges"
+msgstr "Витрати на доставку Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,description:delivery_sendcloud_oca.onboarding_warehouse_address_step
+msgid "Set Sendcloud Warehouse Addresses."
+msgstr "Установити адреси складу Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,button_text:delivery_sendcloud_oca.onboarding_integration_step
+msgid "Setup"
+msgstr "Налаштувати"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,title:delivery_sendcloud_oca.onboarding_integration_step
+msgid "Setup Integration"
+msgstr "Налаштувати інтеграцію"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,description:delivery_sendcloud_oca.onboarding_integration_step
+msgid "Setup Sendcloud Integration."
+msgstr "Налаштувати інтеграцію Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_stock_picking__sendcloud_announce
+msgid "Should the parcel request a label."
+msgstr "Чи має посилка запитувати етикетку."
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,title:delivery_sendcloud_oca.onboarding_sync_step
+msgid "Sync Sendcloud objects"
+msgstr "Синхронізувати об’єкти Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,description:delivery_sendcloud_oca.onboarding_sync_step
+msgid "Synchronize Sendcloud objects."
+msgstr "Синхронізувати об’єкти Sendcloud."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__to_service_point
+msgid "The id of service point to which the shipment is going to be shipped."
+msgstr "ID пункту обслуговування, до якого буде відправлено відправлення."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_custom_price_details_wizard__price_custom
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__price_custom
+msgid ""
+"This price will override the standard price and will be applied to the "
+"shipping price."
+msgstr "Ця ціна перевизначить стандартну й буде застосована як ціна доставки."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__total_insured_value
+msgid "Total Insured Value is in Euro currency."
+msgstr "Загальна застрахована вартість у євро."
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_change_warehouse_address_wizard
+msgid "Warehouse, Change Address Wizard"
+msgstr "Майстер зміни адреси складу"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_sendcloud_parcel__weight
+msgid "Weight unit of measure is KG."
+msgstr "Одиниця виміру ваги — кг."
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,done_text:delivery_sendcloud_oca.onboarding_integration_step
+msgid "Well done!"
+msgstr "Чудово!"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_stock_picking__sendcloud_apply_shipping_rules
+msgid ""
+"When set to True configured shipping rules will be applied before creating "
+"the label and announcing the Parcel"
+msgstr ""
+"Якщо встановлено True, налаштовані правила доставки застосовуватимуться "
+"перед створенням етикетки й оголошенням відправлення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,help:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_price
+msgid ""
+"When this value is null, the price is calculated based on the pricelist by "
+"countries"
+msgstr ""
+"Якщо це значення порожнє, ціна розраховується на основі прайс-листа за "
+"країнами"

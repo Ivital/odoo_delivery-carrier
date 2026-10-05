@@ -77,3 +77,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields.selection,name:delivery_carrier_multi_zip.selection__delivery_carrier__zip_option__prefix
 msgid "Prefixes"
 msgstr "Префікси"
+
+#. module: delivery_carrier_multi_zip
+#: model:ir.model,name:delivery_carrier_multi_zip.model_delivery_carrier_zip
+msgid "Delivery destination availability ZIP interval line"
+msgstr "Рядок ZIP-інтервалу доступності місця доставки"

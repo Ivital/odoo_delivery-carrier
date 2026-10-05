@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_carrier_picking_valid_dangerous_goods.field_delivery_carrier__adr_limited_amount_ids
 msgid "ADR limited amount"
 msgstr "Обмежена кількість ADR"
+
+#. module: delivery_carrier_picking_valid_dangerous_goods
+#: model:ir.model.fields,help:delivery_carrier_picking_valid_dangerous_goods.field_delivery_carrier__adr_limited_amount_ids
+msgid ""
+"If a limited amount is defined here, this carrier will be excluded from the "
+"selection of carrier if any product has that same limited amount."
+msgstr ""
+"Якщо тут визначено обмежену суму, цього перевізника буде виключено з вибору,"
+" якщо будь-який товар має таку саму обмежену суму."

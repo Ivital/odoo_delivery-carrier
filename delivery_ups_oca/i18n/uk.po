@@ -157,3 +157,32 @@ msgstr "Дата завершення строку токена UPS"
 #: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_use_packages_from_picking
 msgid "Use packages from picking"
 msgstr "Використовувати пакунки з переміщення"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,help:delivery_ups_oca.field_delivery_carrier__ups_negotiated_rates
+msgid "If checked, UPS will use the account's negotiated rates for shipping."
+msgstr ""
+"Якщо позначено, UPS використовуватиме узгоджені тарифи облікового запису для"
+" доставки."
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,help:delivery_ups_oca.field_delivery_carrier__ups_tracking_state_update_sync
+msgid ""
+"If checked, odoo try to state update from picking according to UPS "
+"webservice (you will necessary to activate tracking API)"
+msgstr ""
+"Якщо позначено, Odoo намагатиметься оновлювати стан із комплектування через "
+"вебсервіс UPS (потрібно активувати API відстеження)"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,help:delivery_ups_oca.field_delivery_carrier__ups_package_dimension_code
+msgid ""
+"Is necessary to set dimension code from packages in shipping creation "
+"process"
+msgstr "Для створення відправлення необхідно задати код розміру з пакувань"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,help:delivery_ups_oca.field_delivery_carrier__ups_package_weight_code
+msgid ""
+"Is necessary to set weight code from packages in shipping creation process"
+msgstr "Для створення відправлення необхідно задати код ваги з пакувань"

@@ -128,3 +128,47 @@ msgstr "Застосовується за замовчуванням"
 #: model:ir.model.fields.selection,name:delivery_carrier_option.selection__delivery_carrier_template_option__type__delivery
 msgid "Delivery Instructions"
 msgstr "Інструкції з доставки"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_option__description
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_template_option__description
+msgid "Allow to define a more complete description than in the name field."
+msgstr "Дозволяє задати повніший опис, ніж у полі назви."
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_option__by_default
+msgid ""
+"By check, user can choose to apply this option to each Delivery Order\n"
+" using this delivery method"
+msgstr ""
+"Якщо позначено, користувач може застосовувати цей параметр до кожного замовлення на доставку\n"
+" з цим способом доставки"
+
+#. module: delivery_carrier_option
+#: model:ir.model,name:delivery_carrier_option.model_delivery_carrier_option
+msgid "Delivery carrier option"
+msgstr "Параметр перевізника доставки"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_option__mandatory
+msgid ""
+"If checked, this option is necessarily applied to the delivery order. "
+"Mandatory options show up in orange in the option widget on the picking."
+msgstr ""
+"Якщо позначено, ця опція обов’язково застосовується до замовлення на "
+"доставку. Обов’язкові опції відображаються помаранчевим у віджеті опцій "
+"передачі."
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_option__color
+msgid "Orange if the option is mandatory, otherwise no color"
+msgstr "Помаранчевий, якщо параметр обов’язковий, інакше без кольору"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,help:delivery_carrier_option.field_delivery_carrier_option__readonly_flag
+msgid ""
+"When True, help to prevent the user to modify some fields option (if "
+"attribute is defined in the view)"
+msgstr ""
+"Якщо True, допомагає заборонити користувачу змінювати деякі параметри полів "
+"(якщо атрибут визначено в поданні)"

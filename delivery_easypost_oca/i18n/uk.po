@@ -93,3 +93,13 @@ msgstr "URL відстеження Easypost OCA"
 #: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__easypost_oca_test_api_key
 msgid "Easypost Test API Key"
 msgstr "Тестовий API-ключ Easypost"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,help:delivery_easypost_oca.field_delivery_carrier__easypost_oca_production_api_key
+msgid "Enter your API production key from Easypost account"
+msgstr "Введіть продуктивний API-ключ з облікового запису Easypost"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,help:delivery_easypost_oca.field_delivery_carrier__easypost_oca_test_api_key
+msgid "Enter your API test key from Easypost account."
+msgstr "Введіть тестовий API-ключ з облікового запису Easypost."
