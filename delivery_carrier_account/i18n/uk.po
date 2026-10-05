@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_delivery_carrier__carrier_account_id
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: delivery_carrier_account
+#: model:ir.actions.act_window,name:delivery_carrier_account.action_carrier_account
+#: model:ir.ui.menu,name:delivery_carrier_account.carrier_account_menu
+msgid "Carrier Account"
+msgstr "Обліковий запис перевізника"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__sequence
+msgid "Sequence"
+msgstr "Послідовність"

@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__carrier_id
+msgid "Carrier"
+msgstr "Перевізник"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__code
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__code
+msgid "Code"
+msgstr "Код"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__create_uid
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__create_date
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__description
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__display_name
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__mandatory
+msgid "Mandatory"
+msgstr "Обов’язковий"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__name
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier__available_option_ids
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__tmpl_option_id
+msgid "Option"
+msgstr "Параметр"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_stock_picking__option_ids
+#: model_terms:ir.ui.view,arch_db:delivery_carrier_option.view_delivery_carrier_form
+msgid "Options"
+msgstr "Параметри"

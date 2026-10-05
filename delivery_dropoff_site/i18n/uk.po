@@ -1,0 +1,419 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: delivery_dropoff_site
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+msgid "Address"
+msgstr "Адреса"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__type
+msgid "Address Type"
+msgstr "Тип адреси"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__avatar_1920
+msgid "Avatar"
+msgstr "Аватар"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__avatar_1024
+msgid "Avatar 1024"
+msgstr "Аватар 1024"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__avatar_128
+msgid "Avatar 128"
+msgstr "Аватар 128"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__avatar_256
+msgid "Avatar 256"
+msgstr "Аватар 256"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__avatar_512
+msgid "Avatar 512"
+msgstr "Аватар 512"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__bank_account_count
+msgid "Bank"
+msgstr "Банк"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__bank_ids
+msgid "Banks"
+msgstr "Банки"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__barcode
+msgid "Barcode"
+msgstr "Штрихкод"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__is_blacklisted
+msgid "Blacklist"
+msgstr "Чорний список"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__message_bounce
+msgid "Bounce"
+msgstr "Відмова доставки"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__buyer_id
+msgid "Buyer"
+msgstr "Покупець"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__calendar_id
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+msgid "Calendar"
+msgstr "Календар"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__channel_ids
+msgid "Channels"
+msgstr "Канали"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__city
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+msgid "City"
+msgstr "Місто"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__city_id
+msgid "City ID"
+msgstr "ID міста"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__code
+msgid "Code"
+msgstr "Код"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__company_id
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_search
+msgid "Company"
+msgstr "Компанія"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__company_registry
+msgid "Company ID"
+msgstr "ID компанії"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__company_name
+msgid "Company Name"
+msgstr "Назва компанії"
+
+#. module: delivery_dropoff_site
+#: model:ir.model,name:delivery_dropoff_site.model_res_partner
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__child_ids
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__country_id
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_search
+msgid "Country"
+msgstr "Країна"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__country_code
+msgid "Country Code"
+msgstr "Код країни"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__credit_limit
+msgid "Credit Limit"
+msgstr "Кредитний ліміт"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__street_number2
+msgid "Door"
+msgstr "Двері"
+
+#. module: delivery_dropoff_site
+#: model:ir.actions.act_window,name:delivery_dropoff_site.action_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_delivery_carrier__dropoff_site_ids
+#: model:ir.ui.menu,name:delivery_dropoff_site.menu_dropoff_site_sale
+#: model:ir.ui.menu,name:delivery_dropoff_site.menu_dropoff_site_stock
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_delivery_carrier_form
+msgid "Drop-off Sites"
+msgstr "Пункти приймання"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__dropoff_site_ids
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_res_partner__dropoff_site_ids
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_res_users__dropoff_site_ids
+msgid "Dropoff Site"
+msgstr "Пункт приймання"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__email
+msgid "Email"
+msgstr "Електронна пошта"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__employee
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__partner_latitude
+msgid "Geo Latitude"
+msgstr "Географічна широта"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__street_number
+msgid "House"
+msgstr "Будинок"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__im_status
+msgid "IM Status"
+msgstr "Статус IM"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__image_1920
+msgid "Image"
+msgstr "Зображення"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__image_1024
+msgid "Image 1024"
+msgstr "Зображення 1024"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__image_256
+msgid "Image 256"
+msgstr "Зображення 256"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__image_512
+msgid "Image 512"
+msgstr "Зображення 512"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__invoice_warn
+msgid "Invoice"
+msgstr "Рахунок-фактура"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__invoice_ids
+msgid "Invoices"
+msgstr "Рахунки-фактури"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__is_public
+msgid "Is Public"
+msgstr "Публічний"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__is_company
+msgid "Is a Company"
+msgstr "Є компанією"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__function
+msgid "Job Position"
+msgstr "Посада"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__lang
+msgid "Language"
+msgstr "Мова"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__mobile
+msgid "Mobile"
+msgstr "Мобільний"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__name
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+msgid "Name"
+msgstr "Назва"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__comment
+msgid "Notes"
+msgstr "Нотатки"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__parent_name
+msgid "Parent name"
+msgstr "Батьківська назва"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__phone
+msgid "Phone"
+msgstr "Телефон"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__property_product_pricelist
+msgid "Pricelist"
+msgstr "Прайс-лист"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__ref
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: delivery_dropoff_site
+#: model:ir.model,name:delivery_dropoff_site.model_sale_order
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__sale_order_ids
+msgid "Sales Order"
+msgstr "Замовлення на продаж"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__state_id
+#: model_terms:ir.ui.view,arch_db:delivery_dropoff_site.view_partner_dropoff_site_form
+msgid "State"
+msgstr "Стан"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__street
+msgid "Street"
+msgstr "Вулиця"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__street_name
+msgid "Street Name"
+msgstr "Назва вулиці"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__street2
+msgid "Street2"
+msgstr "Вулиця 2"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__category_id
+msgid "Tags"
+msgstr "Теги"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__vat
+msgid "Tax ID"
+msgstr "Податковий номер"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__vat_label
+msgid "Tax ID Label"
+msgstr "Мітка податкового номера"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__tz
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__title
+msgid "Title"
+msgstr "Заголовок"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__user_ids
+msgid "Users"
+msgstr "Користувачі"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__website
+msgid "Website Link"
+msgstr "Посилання на вебсайт"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__attendance_ids
+msgid "Working Time"
+msgstr "Робочий час"
+
+#. module: delivery_dropoff_site
+#: model:ir.model.fields,field_description:delivery_dropoff_site.field_dropoff_site__zip
+msgid "Zip"
+msgstr "Поштовий індекс"
