@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__date_delivered
+msgid "Delivery Date"
+msgstr "Дата доставки"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_res_company__delivery_state_delivered_email_validation
+#: model:ir.model.fields,field_description:delivery_state.field_res_config_settings__delivery_state_delivered_email_validation
+msgid "Email Confirmation delivered picking"
+msgstr "Лист-підтвердження доставленого комплектування"
+
+#. module: delivery_state
+#: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
+msgid "Email Template"
+msgstr "Шаблон електронного листа"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_res_company__delivery_state_delivered_mail_template_id
+#: model:ir.model.fields,field_description:delivery_state.field_res_config_settings__delivery_state_delivered_mail_template_id
+msgid "Email Template delivered picking"
+msgstr "Шаблон листа про доставлене комплектування"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__in_transit
+msgid "In transit"
+msgstr "У дорозі"
+
+#. module: delivery_state
+#: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__incident
+msgid "Incident"
+msgstr "Інцидент"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__date_shipped
+msgid "Shipment Date"
+msgstr "Дата відвантаження"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__tracking_json
+msgid "Tracking Json"
+msgstr "JSON відстеження"
+
+#. module: delivery_state
+#: model:ir.model.fields,field_description:delivery_state.field_stock_picking__tracking_state
+msgid "Tracking State"
+msgstr "Стан відстеження"
+
+#. module: delivery_state
+#: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
+msgid "Values set here are company-specific."
+msgstr "Значення, задані тут, є специфічними для компанії."

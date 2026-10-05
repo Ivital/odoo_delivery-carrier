@@ -95,3 +95,107 @@ msgstr "Шаблон"
 #: code:addons/delivery_postlogistics/models/delivery_carrier.py:0
 msgid "Validated"
 msgstr "Підтверджено"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_client_secret
+msgid "Client Secret"
+msgstr "Секрет клієнта"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
+msgid "Credentials"
+msgstr "Облікові дані"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_stock_picking__delivery_place
+msgid "Delivery Place"
+msgstr "Місце доставки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__res_partner__postlogistics_notification__disabled
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_endpoint_url
+msgid "Endpoint URL"
+msgstr "URL кінцевої точки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_license_id
+msgid "Franking License"
+msgstr "Франкувальна ліцензія"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__delivery_carrier_template_option__type__label_layout
+msgid "Label Layout"
+msgstr "Макет етикетки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_label_layout
+msgid "Label layout"
+msgstr "Макет етикетки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_postlogistics_license__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_postlogistics_license__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
+msgid "Misc."
+msgstr "Інше"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__res_partner__postlogistics_notification__sms
+msgid "Mobile SMS"
+msgstr "Мобільні SMS"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__delivery_carrier_template_option__type__output_format
+msgid "Output Format"
+msgstr "Формат виводу"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_delivery_carrier__postlogistics_output_format
+msgid "Output format"
+msgstr "Формат виводу"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields.selection,name:delivery_postlogistics.selection__res_partner__postlogistics_notification__phone
+msgid "Phone Call"
+msgstr "Телефонний дзвінок"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
+msgid "Post Label Logo"
+msgstr "Логотип поштової етикетки"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_dropoff_site__postlogistics_notification
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_res_partner__postlogistics_notification
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_res_users__postlogistics_notification
+msgid "Postlogistics Notification"
+msgstr "Сповіщення Postlogistics"
+
+#. module: delivery_postlogistics
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_dropoff_site__delivery_carrier_template_option_ids
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_res_partner__delivery_carrier_template_option_ids
+#: model:ir.model.fields,field_description:delivery_postlogistics.field_res_users__delivery_carrier_template_option_ids
+msgid "Postlogistics Options"
+msgstr "Параметри Postlogistics"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
+msgid "Verify"
+msgstr "Перевірити"
+
+#. module: delivery_postlogistics
+#: model_terms:ir.ui.view,arch_db:delivery_postlogistics.delivery_carrier_postlogistics_inherit_view
+msgid "ZPL Patch"
+msgstr "Патч ZPL"

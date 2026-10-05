@@ -80,3 +80,36 @@ msgstr "Параметр"
 #: model_terms:ir.ui.view,arch_db:delivery_carrier_option.view_delivery_carrier_form
 msgid "Options"
 msgstr "Параметри"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields.selection,name:delivery_carrier_option.selection__delivery_carrier_template_option__type__basic
+msgid "Basic Service"
+msgstr "Базова послуга"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__write_uid
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__write_date
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__partner_id
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_template_option__partner_id
+msgid "Partner Carrier"
+msgstr "Перевізник контрагента"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields.selection,name:delivery_carrier_option.selection__delivery_carrier_template_option__type__partner_option
+msgid "Partner Option"
+msgstr "Параметр партнера"
+
+#. module: delivery_carrier_option
+#: model:ir.model.fields,field_description:delivery_carrier_option.field_delivery_carrier_option__readonly_flag
+msgid "Readonly Flag"
+msgstr "Ознака лише для читання"

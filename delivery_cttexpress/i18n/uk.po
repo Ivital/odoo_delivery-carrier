@@ -92,3 +92,139 @@ msgstr "Стан"
 #: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_manifest_wizard__to_date
 msgid "To Date"
 msgstr "До дати"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_shipping_type__10h
+msgid "10 HORAS"
+msgstr "10 ГОДИН"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_shipping_type__13h
+msgid "13 HORAS"
+msgstr "13 ГОДИН"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_shipping_type__19h
+msgid "19 HORAS"
+msgstr "19 ГОДИН"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_shipping_type__48h
+msgid "48 HORAS"
+msgstr "48 ГОДИН"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_shipping_type__830
+msgid "8.30 HORAS"
+msgstr "8.30 ГОДИН"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_user
+msgid "CTT Express User"
+msgstr "Користувач CTT Express"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_manifest_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_pickup_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "Connection"
+msgstr "З'єднання"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_contract
+msgid "Contract code"
+msgstr "Код договору"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_customer
+msgid "Customer code"
+msgstr "Код клієнта"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_pickup_wizard__delivery_date
+msgid "Delivery Date"
+msgstr "Дата доставки"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_document_offset
+msgid "Document Offset"
+msgstr "Зміщення документа"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_document_format
+msgid "Document format"
+msgstr "Формат документа"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_document_model_code
+msgid "Document model"
+msgstr "Модель документа"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_manifest_wizard__carrier_ids
+msgid "Filter accounts"
+msgstr "Фільтрувати рахунки"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_manifest_wizard_form
+msgid "Get Manifest"
+msgstr "Отримати маніфест"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "Label format"
+msgstr "Формат етикетки"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_manifest_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_pickup_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_manifest_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_cttexpress_pickup_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.delivery_pickup_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "Pickup request"
+msgstr "Запит на забір"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "Shipping"
+msgstr "Доставка"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields,field_description:delivery_cttexpress.field_delivery_carrier__cttexpress_shipping_type
+msgid "Shipping type"
+msgstr "Тип доставки"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__delivery_carrier__cttexpress_document_model_code__single
+msgid "Single"
+msgstr "Одинарний"
+
+#. module: delivery_cttexpress
+#: model_terms:ir.ui.view,arch_db:delivery_cttexpress.view_delivery_carrier_form
+msgid "Test connection"
+msgstr "Перевірити з'єднання"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__cttexpress_manifest_wizard__state__done
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__cttexpress_pickup_wizard__state__done
+msgid "done"
+msgstr "виконано"
+
+#. module: delivery_cttexpress
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__cttexpress_manifest_wizard__state__new
+#: model:ir.model.fields.selection,name:delivery_cttexpress.selection__cttexpress_pickup_wizard__state__new
+msgid "new"
+msgstr "новий"

@@ -59,3 +59,23 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__warehouse_ids
 msgid "Warehouses"
 msgstr "Склади"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__delivery_type
+msgid "Delivery Type"
+msgstr "Тип доставки"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__external_reference
+msgid "External Reference"
+msgstr "Зовнішнє посилання"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_carrier_agency
+#: model:ir.model.fields,field_description:delivery_carrier_agency.field_delivery_carrier_agency__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

@@ -109,3 +109,19 @@ msgstr "Вівторок"
 #: model:ir.model.fields,field_description:partner_delivery_schedule.field_delivery_schedule__wednesday
 msgid "Wednesday"
 msgstr "Середа"
+
+#. module: partner_delivery_schedule
+#: model_terms:ir.ui.view,arch_db:partner_delivery_schedule.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:partner_delivery_schedule.report_picking
+msgid "<strong>Delivery Schedule</strong>"
+msgstr "<strong>Графік доставки</strong>"
+
+#. module: partner_delivery_schedule
+#: model:ir.model.fields,field_description:partner_delivery_schedule.field_delivery_schedule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_delivery_schedule
+#: model:ir.model.fields,field_description:partner_delivery_schedule.field_delivery_schedule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

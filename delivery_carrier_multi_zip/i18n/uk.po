@@ -62,3 +62,18 @@ msgstr "Параметр ZIP"
 #: model:ir.model.fields,field_description:delivery_carrier_multi_zip.field_delivery_carrier_zip__zip_to
 msgid "Zip To"
 msgstr "Поштовий індекс до"
+
+#. module: delivery_carrier_multi_zip
+#: model:ir.model.fields,field_description:delivery_carrier_multi_zip.field_delivery_carrier_zip__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_carrier_multi_zip
+#: model:ir.model.fields,field_description:delivery_carrier_multi_zip.field_delivery_carrier_zip__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_carrier_multi_zip
+#: model:ir.model.fields.selection,name:delivery_carrier_multi_zip.selection__delivery_carrier__zip_option__prefix
+msgid "Prefixes"
+msgstr "Префікси"

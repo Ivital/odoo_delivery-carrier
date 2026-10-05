@@ -53,3 +53,28 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__account
+msgid "Account Number"
+msgstr "Номер рахунку"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__password
+msgid "Account Password"
+msgstr "Пароль облікового запису"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__delivery_type
+msgid "Delivery Type"
+msgstr "Тип доставки"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_carrier_account
+#: model:ir.model.fields,field_description:delivery_carrier_account.field_carrier_account__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

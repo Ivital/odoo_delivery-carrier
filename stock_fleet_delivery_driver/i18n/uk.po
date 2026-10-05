@@ -29,3 +29,8 @@ msgstr "Водій"
 #: model_terms:ir.ui.view,arch_db:stock_fleet_delivery_driver.view_picking_internal_search
 msgid "Vehicle"
 msgstr "Транспортний засіб"
+
+#. module: stock_fleet_delivery_driver
+#: model:ir.model.fields,field_description:stock_fleet_delivery_driver.field_delivery_carrier__driver_id
+msgid "Default Driver"
+msgstr "Водій за замовчуванням"

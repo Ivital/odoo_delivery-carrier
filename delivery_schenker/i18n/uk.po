@@ -67,3 +67,128 @@ msgstr "Користувач"
 #: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_measure_unit__volume
 msgid "Volume"
 msgstr "Об’єм"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_booking_type__air
+msgid "Air"
+msgstr "Повітря"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__a2d
+msgid "Airport-to-door"
+msgstr "Від аеропорту до дверей"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_barcode_format
+msgid "Barcode Format"
+msgstr "Формат штрихкоду"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_booking_type
+msgid "Booking Type"
+msgstr "Тип бронювання"
+
+#. module: delivery_schenker
+#: model_terms:ir.ui.view,arch_db:delivery_schenker.view_delivery_carrier_form
+msgid "Connection"
+msgstr "З'єднання"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_incoterm_id
+msgid "Default Incoterm"
+msgstr "Incoterm за замовчуванням"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__d2a
+msgid "Door-to-airport"
+msgstr "Від дверей до аеропорту"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__d2d
+msgid "Door-to-door"
+msgstr "Від дверей до дверей"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__d2p
+msgid "Door-to-port"
+msgstr "Від дверей до порту"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_food_related
+msgid "Food Related"
+msgstr "Пов'язане з харчовими продуктами"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_heated_transport
+msgid "Heated Transport"
+msgstr "Перевезення з підігрівом"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_home_delivery
+msgid "Home Delivery"
+msgstr "Доставка додому"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_indoor_delivery
+msgid "Indoor Delivery"
+msgstr "Доставка всередину приміщення"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_booking_type__land
+msgid "Land"
+msgstr "Земля"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_service_land
+msgid "Land service"
+msgstr "Наземна послуга"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_measure_unit__loading_meters
+msgid "Loading meters"
+msgstr "Завантажувальні метри"
+
+#. module: delivery_schenker
+#: model_terms:ir.ui.view,arch_db:delivery_schenker.view_delivery_carrier_form
+msgid "Logistics"
+msgstr "Логістика"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_measure_unit
+msgid "Measure Unit"
+msgstr "Одиниця вимірювання"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_booking_type__ocean_fcl
+msgid "Ocean FCL"
+msgstr "Морське FCL"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_booking_type__ocean_lcl
+msgid "Ocean LCL"
+msgstr "Морське LCL"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_measure_unit__pallet_space
+msgid "Pallet space"
+msgstr "Місце палети"
+
+#. module: delivery_schenker
+#: model:ir.model.fields,field_description:delivery_schenker.field_delivery_carrier__schenker_pharmaceuticals
+msgid "Pharmaceuticals"
+msgstr "Фармацевтичні товари"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_measure_unit__pieces
+msgid "Pieces"
+msgstr "Штуки"
+
+#. module: delivery_schenker
+#: model:ir.model.fields.selection,name:delivery_schenker.selection__delivery_carrier__schenker_service_type__p2d
+msgid "Port-to-door"
+msgstr "Від порту до дверей"
+
+#. module: delivery_schenker
+#: model_terms:ir.ui.view,arch_db:delivery_schenker.view_picking_withcarrier_out_form
+msgid "Schenker Label"
+msgstr "Етикетка Schenker"

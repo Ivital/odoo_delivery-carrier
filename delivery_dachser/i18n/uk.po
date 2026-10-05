@@ -17,3 +17,308 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
 msgid "Product Code"
 msgstr "Код товару"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ar
+msgid "(AR) Frame"
+msgstr "(AR) Рама"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__b
+msgid "(B) Bundle"
+msgstr "(B) Пакет"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__bb
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__bb
+msgid "(BB) Big Bag"
+msgstr "(BB) Біг-бег"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__bl
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__bl
+msgid "(BL) Bale"
+msgstr "(BL) Тюк"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__br
+msgid "(BR) Barrel"
+msgstr "(BR) Бочка"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__bx
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__bx
+msgid "(BX) Box"
+msgstr "(BX) Коробка"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__c1
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__c1
+msgid "(C1) Chep-Standard-Pallet"
+msgstr "(C1) Стандартна палета Chep"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__c2
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__c2
+msgid "(C2) Chep-Half-Pallet"
+msgstr "(C2) Напівпалета Chep"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__c4
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__c4
+msgid "(C4) Chep-Quarter-Pallet"
+msgstr "(C4) Чверть-палета Chep"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__cc
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__cc
+msgid "(CC) Collapsable Stillage"
+msgstr "(CC) Складний стелаж"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__cr
+msgid "(CR) Crate"
+msgstr "(CR) Ящик"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ct
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ct
+msgid "(CT) Container"
+msgstr "(CT) Контейнер"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__di
+msgid "(D) Display"
+msgstr "(D) Дисплей"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__dd
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__dd
+msgid "(DD) Düsseldorfer pallet"
+msgstr "(DD) Дюссельдорфська палета"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__di
+msgid "(DI) Display"
+msgstr "(DI) Дисплей"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__e
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__e
+msgid "(E) Bucket"
+msgstr "(E) Відро"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__e2
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__e2
+msgid "(E2) Euro-Meat-Tray 2"
+msgstr "(E2) Європіддон для м'яса 2"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__eu
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__eu
+msgid "(EU) Euro Pallet"
+msgstr "(EU) Європалета"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ew
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ew
+msgid "(EW) Disposable Pallet"
+msgstr "(EW) Одноразова палета"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__f
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__f
+msgid "(F) Drum"
+msgstr "(F) Барабан"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__fl
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__fl
+msgid "(FL) Bottle"
+msgstr "(FL) Пляшка"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__g
+msgid "(G) Rack"
+msgstr "(G) Стелаж"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__gb
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__gb
+msgid "(GB) Skeleton box pallet"
+msgstr "(GB) Палета-клітка"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__h1
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__h1
+msgid "(H1) Sterile Pallet 1"
+msgstr "(H1) Стерильна палета 1"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__i1
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__i1
+msgid "(I1) IPP Euro pallet"
+msgstr "(I1) Європалета IPP"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__i2
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__i2
+msgid "(I2) I2 IPP half pallet"
+msgstr "(I2) Напівпалета I2 IPP"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__i4
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__i4
+msgid "(I4) I4 IPP quarter pallet"
+msgstr "(I4) Чверть-палета I4 IPP"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ib
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ib
+msgid "(IB) Intermediate bulk container"
+msgstr "(IB) Середньотоннажний контейнер"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ip
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ip
+msgid "(IP) Industrial Pallet"
+msgstr "(IP) Промислова палета"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__kd
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__kd
+msgid "(KD) Plastic DD pal (customer own)"
+msgstr "(KD) Пластикова DD-палета (власність клієнта)"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__kh
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__kh
+msgid "(KH) Customer Sterile Pallet"
+msgstr "(KH) Стерильна палета клієнта"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__kk
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__kk
+msgid "(KK) Plastic jerrican"
+msgstr "(KK) Пластикова каністра"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__kt
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__kt
+msgid "(KT) Carton"
+msgstr "(KT) Картон"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__m1
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__m1
+msgid "(M1) Euro container 150mm"
+msgstr "(M1) Євроконтейнер 150 мм"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__m2
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__m2
+msgid "(M2) Euro container 220mm"
+msgstr "(M2) Євроконтейнер 220 мм"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__m3
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__m3
+msgid "(M3) Euro container 300mm"
+msgstr "(M3) Євроконтейнер 300 мм"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__pa
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__pa
+msgid "(PA) Parcel/Packet"
+msgstr "(PA) Посилка/пакунок"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ph
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ph
+msgid "(PH) Privately-owned Container"
+msgstr "(PH) Контейнер у приватній власності"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__pt
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__pt
+msgid "(PT) Batch"
+msgstr "(PT) Партія"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__rl
+msgid "(RL) Roll"
+msgstr "(RL) Рулон"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__ro
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__ro
+msgid "(RO) Castor"
+msgstr "(RO) Ролик"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__s
+msgid "(S) Bag"
+msgstr "(S) Мішок"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__st
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__st
+msgid "(ST) Piece"
+msgstr "(ST) Штука"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__tr
+msgid "(TR) Spool"
+msgstr "(TR) Котушка"
+
+#. module: delivery_dachser
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_f__vg
+#: model:ir.model.fields.selection,name:delivery_dachser.selection__delivery_carrier__dachser_packaging_t__vg
+msgid "(VG) Security cage"
+msgstr "(VG) Захисна клітка"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Connection"
+msgstr "З'єднання"
+
+#. module: delivery_dachser
+#: model:ir.model.fields,field_description:delivery_dachser.field_delivery_carrier__dachser_api_key
+msgid "Dachser Api Key"
+msgstr "API-ключ Dachser"
+
+#. module: delivery_dachser
+#: model:ir.model.fields,field_description:delivery_dachser.field_delivery_carrier__dachser_division
+msgid "Dachser Division"
+msgstr "Підрозділ Dachser"
+
+#. module: delivery_dachser
+#: model:ir.model.fields,field_description:delivery_dachser.field_delivery_carrier__dachser_term
+msgid "Dachser Term"
+msgstr "Умова Dachser"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Division Code"
+msgstr "Код підрозділу"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Packaging Code"
+msgstr "Код упаковки"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Packaging Type"
+msgstr "Тип пакування"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Shipping"
+msgstr "Доставка"
+
+#. module: delivery_dachser
+#: model_terms:ir.ui.view,arch_db:delivery_dachser.view_delivery_carrier_form
+msgid "Term Code"
+msgstr "Код терміна"

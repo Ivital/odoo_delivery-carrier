@@ -107,3 +107,78 @@ msgstr "URL"
 #: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__voice_ids
 msgid "Voice"
 msgstr "Голос"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__local_url
+msgid "Attachment URL"
+msgstr "URL вкладення"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__checksum
+msgid "Checksum/SHA1"
+msgstr "Контрольна сума/SHA1"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__db_datas
+msgid "Database Data"
+msgstr "Дані бази даних"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__datas
+msgid "File Content (base64)"
+msgstr "Вміст файлу (base64)"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__raw
+msgid "File Content (raw)"
+msgstr "Вміст файлу (необроблений)"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__index_content
+msgid "Indexed Content"
+msgstr "Проіндексований вміст"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__public
+msgid "Is public document"
+msgstr "Є публічним документом"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__original_id
+msgid "Original (unoptimized, unresized) attachment"
+msgstr "Оригінальне (неоптимізоване, незмінене за розміром) вкладення"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__res_field
+msgid "Resource Field"
+msgstr "Поле ресурсу"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__res_model
+msgid "Resource Model"
+msgstr "Модель ресурсу"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__res_name
+msgid "Resource Name"
+msgstr "Назва ресурсу"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model,name:delivery_carrier_shipping_label.model_shipping_label
+msgid "Shipping Label"
+msgstr "Етикетка доставки"
+
+#. module: delivery_carrier_shipping_label
+#: model:ir.model.fields,field_description:delivery_carrier_shipping_label.field_shipping_label__store_fname
+msgid "Stored Filename"
+msgstr "Збережена назва файлу"

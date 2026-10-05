@@ -896,3 +896,916 @@ msgstr "Майстер"
 #: model:ir.ui.menu,name:delivery_sendcloud_oca.menu_sendcloud_sendcloud_config_wizards
 msgid "Wizards"
 msgstr "Майстри"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_brand_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "-> Create Return Parcel"
+msgstr "-> Створити посилку повернення"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "-> Get Document"
+msgstr "-> Отримати документ"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "-> Get Documents"
+msgstr "-> Отримати документи"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "-> Get Label"
+msgstr "-> Отримати етикетку"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_invoice_form
+msgid "-> Update Items"
+msgstr "-> Оновити елементи"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Announce"
+msgstr "Оголосити"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_stock
+msgid "Auto create invoice"
+msgstr "Автоматично створювати рахунок"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__shipment
+msgid "Cached Shipment"
+msgstr "Кешоване відвантаження"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_cancel_shipment_confirm_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_create_return_parcel_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_custom_price_details_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_onboarding_integration_configuration_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_onboarding_sync_configuration_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_onboarding_warehouse_configuration_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_sync_order_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/xml/backend_service_point.xml:0
+msgid "Clear"
+msgstr "Очистити"
+
+#. module: delivery_sendcloud_oca
+#. odoo-javascript
+#: code:addons/delivery_sendcloud_oca/static/src/components/onboarding/onboarding.xml:0
+msgid "Close"
+msgstr "Закрити"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_stock
+msgid "Compute shipping costs and ship with Sendcloud"
+msgstr "Розрахувати вартість доставки та відправити через Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,button_text:delivery_sendcloud_oca.onboarding_warehouse_address_step
+msgid "Configure"
+msgstr "Налаштувати"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_cancel_shipment_confirm_wizard_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_onboarding_sync_configuration_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_sync_order_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_create_return_parcel_wizard_form
+msgid "Confirm step 1/2"
+msgstr "Підтвердити крок 1/2"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_create_return_parcel_wizard_form
+msgid "Confirm step 2/2"
+msgstr "Підтвердити крок 2/2"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__country_iso_2
+msgid "Country Iso 2"
+msgstr "ISO 2 країни"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_return_location__country_name
+msgid "Country Name"
+msgstr "Назва країни"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.vpicktree
+msgid "Create Labels"
+msgstr "Створити етикетки"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_create_return_parcel_wizard
+msgid "Create Return Parcel"
+msgstr "Створити посилку повернення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_shipping_method_country__price_check__custom
+msgid "Custom"
+msgstr "Користувацький"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/sendcloud_shipping_method_country.py:0
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_custom_price_details_wizard
+msgid "Custom Price Details"
+msgstr "Деталі власної ціни"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_order_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Delete From Sendcloud"
+msgstr "Видалити із Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Deleted"
+msgstr "Видалено"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__delivered_at
+msgid "Delivered At"
+msgstr "Доставлено о"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__delivery_option_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__delivery_option
+msgid "Delivery Option"
+msgstr "Варіант доставки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__delivery_option_ids
+msgid "Delivery Options"
+msgstr "Параметри доставки"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_cancel_shipment_confirm_wizard_form
+msgid "Do you confirm?"
+msgstr "Підтверджуєте?"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__documents
+msgid "Documents Data"
+msgstr "Дані документів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_return__delivery_option__drop_off_point
+msgid "Drop Off Point"
+msgstr "Пункт здачі"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_create_return_parcel_wizard_delivery_option__code__drop_off_point
+msgid "Drop-off Point"
+msgstr "Пункт приймання"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__enable_price_custom
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country_custom__enable_price_custom
+msgid "Enable Price Custom"
+msgstr "Увімкнути власну ціну"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__enable_refunds
+msgid "Enable Refunds"
+msgstr "Увімкнути повернення"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_stock
+msgid "Enable Test Mode"
+msgstr "Увімкнути тестовий режим"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__error_message
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__error_message
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration_wizard__error_message
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__error_on_parsing
+msgid "Error On Parsing"
+msgstr "Помилка під час розбору"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_create_return_parcel_wizard_refund_option__code__exchange
+msgid "Exchange"
+msgstr "Обмін"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__external_order_id
+msgid "External Order"
+msgstr "Зовнішнє замовлення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__external_reference
+msgid "External Reference"
+msgstr "Зовнішнє посилання"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_create_return_parcel_wizard_form
+msgid "Extra data"
+msgstr "Додаткові дані"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__from_country_id
+msgid "From Country"
+msgstr "З країни"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "From Email"
+msgstr "З електронного листа"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_parcel__label_print_status__generated
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__stock_picking__label_print_status__generated
+msgid "Generated"
+msgstr "Згенеровано"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__hide_powered_by
+msgid "Hide Powered By"
+msgstr "Приховати Powered By"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_create_return_parcel_wizard_delivery_option__code__in_store
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_return__delivery_option__in_store
+msgid "In Store"
+msgstr "У магазині"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__incoming_parcel_id
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Incoming Parcel"
+msgstr "Вхідний пакунок"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__insured_value
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Insured Value"
+msgstr "Застрахована вартість"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_brand_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_carrier_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_invoice_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_invoice_list
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_status_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_list
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_shipping_method_country_form
+msgid "Internal Code"
+msgstr "Внутрішній код"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__is_cancellable
+msgid "Is Cancellable"
+msgstr "Можна скасувати"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__is_processed
+msgid "Is Processed"
+msgstr "Оброблено"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_config_settings__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sale_order__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration_wizard__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_mixin__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__is_sendcloud_test_mode
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__is_sendcloud_test_mode
+msgid "Is Sendcloud Test Mode"
+msgstr "Тестовий режим Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__label_print_status
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__label_print_status
+msgid "Label Print Status"
+msgstr "Статус друку етикетки"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_create_return_parcel_wizard_delivery_option__code__drop_off_labelless
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_return__delivery_option__drop_off_labelless
+msgid "Labelless Drop Off"
+msgstr "Здавання без етикетки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_cancel_shipment_confirm_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_carrier__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_change_warehouse_address_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_delivery_option__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_line__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_reason__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_refund_option__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_return_location__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_custom_price_details_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice_item__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_document__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_item__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_status__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sender_address__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country_custom__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_order_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_warehouse_address_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_cancel_shipment_confirm_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_carrier__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_change_warehouse_address_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_delivery_option__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_line__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_reason__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_refund_option__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_return_location__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_custom_price_details_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice_item__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_document__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_item__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_status__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sender_address__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country_custom__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_order_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_warehouse_address_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_delivery_carrier_form
+msgid "Min Weight"
+msgstr "Мінімальна вага"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_create_return_parcel_wizard_refund_option__code__money
+msgid "Money"
+msgstr "Гроші"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__delivery_carrier__sendcloud_service_point_input__none
+msgid "None"
+msgstr "Немає"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_delivery_carrier_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_order_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_brand_form
+msgid "Only for Testing"
+msgstr "Лише для тестування"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_item__origin_country
+msgid "Origin Country"
+msgstr "Країна походження"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__outgoing_parcel_id
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Outgoing Parcel"
+msgstr "Вихідний пакунок"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Parcel Details"
+msgstr "Деталі посилки"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Parcel Items"
+msgstr "Позиції посилки"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Parcel Label"
+msgstr "Етикетка посилки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_wizard__parcel_statuses
+msgid "Parcel Statuses"
+msgstr "Статуси посилок"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Partner Details"
+msgstr "Деталі партнера"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_shipping_method_country_form
+msgid "Price (Euro)"
+msgstr "Ціна (євро)"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.vpicktree
+msgid "Print Labels"
+msgstr "Друкувати етикетки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_parcel__label_print_status__printed
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__stock_picking__label_print_status__printed
+msgid "Printed"
+msgstr "Надруковано"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__reason_message
+msgid "Reason Message"
+msgstr "Повідомлення про причину"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/wizards/sendcloud_create_return_parcel_wizard.py:0
+msgid "Reason is required"
+msgstr "Причина обов'язкова"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__reasons
+msgid "Reasons Cached"
+msgstr "Причини кешовано"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_action__message_type__received
+msgid "Received"
+msgstr "Отримано"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__refund_message
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__refund_message
+msgid "Refund Message"
+msgstr "Повідомлення про повернення коштів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__refund_option_id
+msgid "Refund Option"
+msgstr "Параметр повернення коштів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__refund_option_ids
+msgid "Refund Options"
+msgstr "Параметри повернення коштів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__refund_option_require_message
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_refund_option__require_message
+msgid "Require Message"
+msgstr "Вимагати повідомлення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_custom_price_details_wizard_form
+msgid "Restore"
+msgstr "Відновити"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__return_location_id
+msgid "Return Location"
+msgstr "Місце повернення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_line__return_message
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_item__return_message
+msgid "Return Message"
+msgstr "Повідомлення про повернення"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Return Portal"
+msgstr "Портал повернень"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__return_portal_url
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__return_portal_url
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__return_portal_url
+msgid "Return Portal Url"
+msgstr "URL порталу повернення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_line__return_reason
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_item__return_reason
+msgid "Return Reason"
+msgstr "Причина повернення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_orders_sendcloud
+msgid "Sales Orders"
+msgstr "Замовлення на продаж"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__screen_thumb
+msgid "Screen Thumb"
+msgstr "Мініатюра екрана"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__secondary_color
+msgid "Secondary Color"
+msgstr "Додатковий колір"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_auto_create_invoice
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_config_settings__sendcloud_auto_create_invoice
+msgid "Sendcloud Auto Create Invoice"
+msgstr "Автоматично створювати рахунок Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_brands
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_brand_ids
+msgid "Sendcloud Brands"
+msgstr "Бренди Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_carrier
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_carrier
+msgid "Sendcloud Carrier"
+msgstr "Перевізник Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_brand__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_carrier__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard_line__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice_item__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel_status__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sender_address__sendcloud_code
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__sendcloud_code
+msgid "Sendcloud Code"
+msgstr "Код Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sale_order__sendcloud_customs_shipment_type
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__sendcloud_customs_shipment_type
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_customs_shipment_type
+msgid "Sendcloud Customs Shipment Type"
+msgstr "Тип митного відправлення Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_integration_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__sendcloud_integration_id
+msgid "Sendcloud Integration"
+msgstr "Інтеграція Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_integration
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_integration
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_integration_ids
+msgid "Sendcloud Integrations"
+msgstr "Інтеграції Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_invoice
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_invoice_item__sendcloud_invoice_id
+msgid "Sendcloud Invoice"
+msgstr "Рахунок Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_invoices
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_invoice_ids
+msgid "Sendcloud Invoices"
+msgstr "Рахунки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_is_return
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__sendcloud_is_return
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_is_return
+msgid "Sendcloud Is Return"
+msgstr "Sendcloud — повернення"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_parcel
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_parcel_ids
+msgid "Sendcloud Parcel"
+msgstr "Посилка Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_parcel_statuses
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_parcel_status
+msgid "Sendcloud Parcel Statuses"
+msgstr "Статуси посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#. odoo-python
+#: code:addons/delivery_sendcloud_oca/models/stock_picking.py:0
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_parcels
+msgid "Sendcloud Parcels"
+msgstr "Посилки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_price
+msgid "Sendcloud Price"
+msgstr "Ціна Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_returns
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_return_ids
+msgid "Sendcloud Returns"
+msgstr "Повернення Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model,name:delivery_sendcloud_oca.model_sendcloud_sender_address
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_sender_address_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_dropoff_site__sencloud_sender_address_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_partner__sencloud_sender_address_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_users__sencloud_sender_address_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_warehouse__sencloud_sender_address_id
+msgid "Sendcloud Sender Address"
+msgstr "Адреса відправника Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_sender_address
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_res_company__sendcloud_sender_address_ids
+msgid "Sendcloud Sender Addresses"
+msgstr "Адреси відправника Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sale_order__sendcloud_service_point_address
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_service_point_address
+msgid "Sendcloud Service Point Address"
+msgstr "Адреса пункту обслуговування Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_delivery_carrier__sendcloud_service_point_required
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sale_order__sendcloud_service_point_required
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_service_point_required
+msgid "Sendcloud Service Point Required"
+msgstr "Потрібен пункт обслуговування Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.actions.act_window,name:delivery_sendcloud_oca.action_sendcloud_shipping_methods
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.res_config_settings_view_form_stock
+msgid "Sendcloud Shipping Methods"
+msgstr "Способи доставки Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sale_order__sendcloud_sp_details
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_stock_picking__sendcloud_sp_details
+msgid "Sendcloud Sp Details"
+msgstr "Деталі пункту обслуговування Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_action__sent_payload
+msgid "Sent Payload"
+msgstr "Надіслані дані"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__service_point
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_delivery_carrier_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_order_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Service Point"
+msgstr "Пункт обслуговування"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_integration_form
+msgid "Service Points"
+msgstr "Пункти обслуговування"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Shipment Type"
+msgstr "Тип відвантаження"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Shipment UUID"
+msgstr "UUID відвантаження"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__shipment_uuid
+msgid "Shipment Uuid"
+msgstr "UUID відвантаження"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Shipping"
+msgstr "Доставка"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__shipping_method
+msgid "Shipping Method"
+msgstr "Спосіб доставки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_create_return_parcel_wizard__shop_distances
+msgid "Shop Distances"
+msgstr "Відстані до магазинів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_custom_price_details_wizard__product_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country__product_id
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_shipping_method_country_custom__product_id
+msgid "Specific Delivery Product"
+msgstr "Спеціальний товар доставки"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_shipping_method_country__price_check__standard
+msgid "Standard"
+msgstr "Стандартний"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_custom_price_details_wizard__price
+msgid "Standard Price"
+msgstr "Стандартна собівартість"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_onboarding_integration_configuration_form
+msgid "Start Setup"
+msgstr "Почати налаштування"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Status Code"
+msgstr "Код статусу"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__status_display
+msgid "Status Display"
+msgstr "Відображення статусу"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_custom_price_details_wizard_form
+msgid "Store"
+msgstr "Магазин"
+
+#. module: delivery_sendcloud_oca
+#: model:onboarding.onboarding.step,button_text:delivery_sendcloud_oca.onboarding_sync_step
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_parcel_form
+msgid "Sync"
+msgstr "Синхронізувати"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_sync_order_wizard__sync_from_date
+msgid "Sync From Date"
+msgstr "Синхронізувати від дати"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_order_form
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_picking_withcarrier_out_form
+msgid "Sync To Sendcloud"
+msgstr "Синхронізувати із Sendcloud"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__to_post_number
+msgid "To Post Number"
+msgstr "Номер для пошти"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_create_return_parcel_wizard_form
+msgid "Tokens"
+msgstr "Токени"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_return__total_refund
+msgid "Total Refund"
+msgstr "Загальне повернення коштів"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__tracking_number
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Tracking Number"
+msgstr "Номер відстеження"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.view_sendcloud_return_form
+msgid "Tracking URL"
+msgstr "URL відстеження"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__tracking_url
+msgid "Tracking Url"
+msgstr "URL відстеження"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields.selection,name:delivery_sendcloud_oca.selection__sendcloud_shipping_method_country__price_check__unavailable
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#. module: delivery_sendcloud_oca
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud_oca.sendcloud_custom_price_details_wizard_form
+msgid "Update"
+msgstr "Оновити"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_integration__webhook_active
+msgid "Webhook Active"
+msgstr "Webhook активний"
+
+#. module: delivery_sendcloud_oca
+#: model:ir.model.fields,field_description:delivery_sendcloud_oca.field_sendcloud_parcel__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

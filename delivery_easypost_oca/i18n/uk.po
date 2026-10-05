@@ -22,3 +22,34 @@ msgstr "Пакет"
 #: model:ir.model.fields.selection,name:delivery_easypost_oca.selection__delivery_carrier__easypost_oca_delivery_multiple_packages__shipments
 msgid "Shipments"
 msgstr "Відправлення"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_package_type__easypost_oca_carrier
+msgid "Carrier Prefix"
+msgstr "Префікс перевізника"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_choose_delivery_carrier__easypost_oca_carrier_name
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_sale_order__easypost_oca_carrier_name
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_carrier_name
+msgid "Easypost Oca Carrier Name"
+msgstr "Назва перевізника Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_choose_delivery_carrier__easypost_oca_rate_id
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_sale_order__easypost_oca_rate_id
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_rate_id
+msgid "Easypost Oca Rate"
+msgstr "Тариф Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_choose_delivery_carrier__easypost_oca_shipment_id
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_sale_order__easypost_oca_shipment_id
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_stock_picking__easypost_oca_shipment_id
+msgid "Easypost Oca Shipment"
+msgstr "Відправлення Easypost OCA"
+
+#. module: delivery_easypost_oca
+#: model:ir.model.fields,field_description:delivery_easypost_oca.field_delivery_carrier__easypost_oca_label_file_type
+msgid "Label Format"
+msgstr "Формат етикетки"

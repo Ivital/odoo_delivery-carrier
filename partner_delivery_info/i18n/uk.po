@@ -55,3 +55,19 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:partner_delivery_info.field_res_partner_delivery_info__text
 msgid "Text"
 msgstr "Текст"
+
+#. module: partner_delivery_info
+#: model:ir.model.fields,field_description:partner_delivery_info.field_res_partner__delivery_info_id
+#: model:ir.model.fields,field_description:partner_delivery_info.field_res_users__delivery_info_id
+msgid "Info for Delivery Carrier"
+msgstr "Інформація для перевізника"
+
+#. module: partner_delivery_info
+#: model:ir.model.fields,field_description:partner_delivery_info.field_res_partner_delivery_info__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_delivery_info
+#: model:ir.model.fields,field_description:partner_delivery_info.field_res_partner_delivery_info__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

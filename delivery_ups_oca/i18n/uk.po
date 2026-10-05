@@ -42,3 +42,68 @@ msgstr "Клієнт UPS"
 #: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_token
 msgid "Ups Token"
 msgstr "Токен UPS"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_service_code__02
+msgid "2nd Day Air"
+msgstr "Авіадоставка 2-го дня"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_cod_funds_code__1
+msgid "Cash"
+msgstr "Готівка"
+
+#. module: delivery_ups_oca
+#: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_delivery_carrier_form
+msgid "Cash On Delivery"
+msgstr "Оплата при доставці"
+
+#. module: delivery_ups_oca
+#: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_delivery_carrier_form
+msgid "Credentials"
+msgstr "Облікові дані"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_service_code__08
+msgid "Expedited"
+msgstr "Прискорений"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_service_code__03
+msgid "Ground"
+msgstr "Наземний"
+
+#. module: delivery_ups_oca
+#: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_delivery_carrier_form
+msgid "Misc"
+msgstr "Інше"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_negotiated_rates
+msgid "Negotiated Rates"
+msgstr "Узгоджені тарифи"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields.selection,name:delivery_ups_oca.selection__delivery_carrier__ups_service_code__01
+msgid "Next Day Air"
+msgstr "Авіадоставка наступного дня"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_service_code
+msgid "Service code"
+msgstr "Код послуги"
+
+#. module: delivery_ups_oca
+#: model:ir.model.fields,field_description:delivery_ups_oca.field_delivery_carrier__ups_shipper_number
+msgid "Shipper number"
+msgstr "Номер відправника"
+
+#. module: delivery_ups_oca
+#: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_picking_withcarrier_out_form
+msgid "UPS Label"
+msgstr "Етикетка UPS"
+
+#. module: delivery_ups_oca
+#: model_terms:ir.ui.view,arch_db:delivery_ups_oca.view_delivery_carrier_form
+msgid "Update Token"
+msgstr "Оновити токен"

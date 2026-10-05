@@ -23,3 +23,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery_driver.view_picking_internal_search_inherit_delivery_driver
 msgid "Driver"
 msgstr "Водій"
+
+#. module: delivery_driver
+#: model:ir.model.fields,field_description:delivery_driver.field_res_partner__carrier_ids
+#: model:ir.model.fields,field_description:delivery_driver.field_res_users__carrier_ids
+msgid "Delivery Carriers"
+msgstr "Перевізники доставки"

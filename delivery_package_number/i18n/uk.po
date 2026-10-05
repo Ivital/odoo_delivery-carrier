@@ -45,3 +45,56 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_line_wizard__wiz_id
 msgid "Wiz"
 msgstr "Майстер"
+
+#. module: delivery_package_number
+#: model:ir.model.fields.selection,name:delivery_package_number.selection__stock_picking_type__force_set_number_of_packages__always
+msgid "Always"
+msgstr "Завжди"
+
+#. module: delivery_package_number
+#: model_terms:ir.ui.view,arch_db:delivery_package_number.view_number_package_validate
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: delivery_package_number
+#: model_terms:ir.ui.view,arch_db:delivery_package_number.view_number_package_validate
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_dropoff_site__force_set_number_of_packages
+#: model:ir.model.fields,field_description:delivery_package_number.field_res_partner__force_set_number_of_packages
+#: model:ir.model.fields,field_description:delivery_package_number.field_res_users__force_set_number_of_packages
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_picking_type__force_set_number_of_packages
+msgid "Force Set Number Of Packages"
+msgstr "Примусово задавати кількість пакунків"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_line_wizard__write_uid
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_line_wizard__write_date
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_package_number
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_number_package_validate_line_wizard__number_of_packages
+#: model:ir.model.fields,field_description:delivery_package_number.field_stock_picking__number_of_packages
+msgid "Number of Packages"
+msgstr "Кількість пакунків"
+
+#. module: delivery_package_number
+#: model_terms:ir.ui.view,arch_db:delivery_package_number.view_picking_type_form
+msgid "Number of packages"
+msgstr "Кількість пакунків"
+
+#. module: delivery_package_number
+#. odoo-python
+#: code:addons/delivery_package_number/models/stock_picking.py:0
+#: model_terms:ir.ui.view,arch_db:delivery_package_number.view_number_package_validate
+msgid "Set number of packages"
+msgstr "Встановити кількість пакунків"

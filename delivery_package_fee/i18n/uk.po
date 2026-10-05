@@ -48,3 +48,18 @@ msgstr "Плата за пакування"
 #: model:ir.model.fields,field_description:delivery_package_fee.field_delivery_package_fee__package_type_id
 msgid "Package Type"
 msgstr "Тип пакування"
+
+#. module: delivery_package_fee
+#: model:ir.model.fields,field_description:delivery_package_fee.field_delivery_package_fee__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: delivery_package_fee
+#: model:ir.model.fields,field_description:delivery_package_fee.field_delivery_package_fee__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: delivery_package_fee
+#: model_terms:ir.ui.view,arch_db:delivery_package_fee.view_delivery_carrier_form
+msgid "Package Fees"
+msgstr "Плата за пакунок"

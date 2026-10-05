@@ -22,3 +22,8 @@ msgstr "Перевізник"
 #: model_terms:ir.ui.view,arch_db:delivery_roulier.view_quant_package_form
 msgid "Tracking"
 msgstr "Відстеження"
+
+#. module: delivery_roulier
+#: model:ir.model.fields,field_description:delivery_roulier.field_stock_quant_package__parcel_tracking
+msgid "Parcel Tracking"
+msgstr "Відстеження посилки"
